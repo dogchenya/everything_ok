@@ -15,3 +15,7 @@ Discover candidates automatically and review them manually. Prefer useful, maint
 修改 `catalog/tools.json` 后运行 `node scripts/build.mjs`。提交前检查网页播放、双语说明、本地资源链接和素材来源。不要提交账号、密钥、本机审核备注、安装包或录屏原始文件。
 
 After editing `catalog/tools.json`, run `node scripts/build.mjs`. Check playback, bilingual descriptions, local asset links and attribution. Never commit credentials, private review notes, installers or raw recordings.
+
+分类在 `catalog/categories.json` 中维护，每个项目只归入一个主要分类。README 中的动画由实际录屏转换，MP4 原片保留；分类和双语介绍修改后运行 `node scripts/build.mjs`。
+
+Maintain categories in `catalog/categories.json`, with one main category per tool. README animations are converted from actual recordings and retain MP4 links. Run `node scripts/build.mjs` after editing categories or bilingual descriptions.

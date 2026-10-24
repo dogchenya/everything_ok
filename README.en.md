@@ -1,247 +1,275 @@
 # everything_ok
 
-[简体中文](README.md) · [GitHub](https://github.com/dogchenya/everything_ok) · [Live gallery](https://dogchenya.github.io/everything_ok/)
+[简体中文](README.md) · [Video gallery](https://dogchenya.github.io/everything_ok/)
 
-Useful GitHub tools you can understand before installing. **17 reviewed projects** with Chinese/English introductions, setup requirements and demos.
+Useful GitHub tools, grouped by what you want to do. See them work before trying them.
 
-**Play the demos:** clone or download this repository and open [index.html](index.html) in a browser. No dependencies required. GitHub’s file viewer shows HTML source.
+**Want to share files easily?** Try [LocalSend](#localsend) on a local network, [PairDrop](#pairdrop) in a browser, or [GatherPack](#gatherpack) to collect and archive scattered files.
 
-Nine recorded core workflows, one partial recording, two step GIFs and five upstream demos. Local recordings play at 2–3×, retaining workflow stages and results, with normal-speed copies. Excalidraw was reviewed but file export remains unverified.
+Recorded workflows play here as GIFs. Use the MP4 link below each preview for a clearer video. Recordings run at 2–3×, with normal-speed copies available.
 
-GitHub stars checked on 2026-10-24. Newly selected projects exceeded 50,000 stars; other previously approved tools are retained. GatherPack is explicitly included as an own project. Stars are not a quality guarantee.
+[Share and organize files · 4](#file-sharing) · [Documents and productivity · 4](#office) · [Images, recording and video · 4](#media-tools) · [AI and local models · 2](#ai-tools) · [Development and automation · 2](#developer-tools) · [Photo management · 1](#photos)
 
-| Project | ★ | Purpose | Requirements | Demo |
-| --- | ---: | --- | --- | --- |
-| [Excalidraw](https://github.com/excalidraw/excalidraw) | 134,441 | Sketch diagrams and explain ideas on a hand-drawn whiteboard | Open the web app; paid collaboration offerings are separate | [Partial workflow](#excalidraw) |
-| [LocalSend](https://github.com/localsend/localsend) | 95,358 | Share files across nearby devices | Install on devices that can reach each other | [Recorded workflow](#localsend) |
-| [Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 94,822 | Merge, split, convert and process PDFs | Desktop or self-hosted; distinguish community features and paid plans | [Recorded workflow](#stirling-pdf) |
-| [Syncthing](https://github.com/syncthing/syncthing) | 89,671 | Keep folders synchronized across your devices | Install and pair devices, then choose synchronized folders | [Recorded workflow](#syncthing) |
-| [OBS Studio](https://github.com/obsproject/obs-studio) | 77,992 | Record tutorials, stream and compose multiple sources | Desktop installation; configure video and audio sources | [Recorded workflow](#obs-studio) |
-| [LosslessCut](https://github.com/mifi/lossless-cut) | 45,112 | Trim audio and video without re-encoding | Desktop installation; learn ranges and format limitations | [Recorded workflow](#losslesscut) |
-| [GatherPack](https://github.com/dogchenya/GatherPack) (own project) | 0 | Collect scattered files and archive them together | Desktop installation; Alpha, with platform validation limits | [Recorded workflow](#gatherpack) |
-| [PowerToys](https://github.com/microsoft/PowerToys) | 139,688 | Productivity utilities for Windows | Windows; install and enable selected utilities | [Upstream media](#powertoys) |
-| [Upscayl](https://github.com/upscayl/upscayl) | 50,922 | Upscale images with AI | Desktop installation; requires compatible graphics hardware | [Upstream media](#upscayl) |
-| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) | 27,841 | Record and edit screen GIFs | Windows; check .NET runtime requirements | [Upstream media](#screentogif) |
-| [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) | 15,855 | Find files and launch apps quickly | Windows desktop installation | [Upstream media](#flow-launcher) |
-| [PairDrop](https://github.com/schlagmichdoch/PairDrop) | 11,663 | Transfer files between browsers | Use the hosted app; self-hosting needs a server | [Upstream media](#pairdrop) |
-| [n8n](https://github.com/n8n-io/n8n) | 208,428 | Connect apps and automate repetitive workflows | Self-host or use a cloud account; integrations may require credentials or fees | [Recorded workflow](#n8n) |
-| [Ollama](https://github.com/ollama/ollama) | 184,505 | Run and use open models on your own computer | Install and download models; sufficient RAM and storage required; cloud plans differ | [Recorded workflow](#ollama) |
-| [Open WebUI](https://github.com/open-webui/open-webui) | 156,595 | Chat with local and API models through one interface | Requires deployment and Ollama or a compatible API; compute is separate | [Recorded workflow](#open-webui) |
-| [Immich](https://github.com/immich-app/immich) | 117,038 | Host your own photo library | Requires a server, Docker and storage maintenance | [Step GIF](#immich) |
-| [Hoppscotch](https://github.com/hoppscotch/hoppscotch) | 80,677 | Send requests and test APIs | Requires API basics; some connections need extra configuration | [Step GIF](#hoppscotch) |
+17 reviewed projects. Star snapshot: 2026-10-24. Upstream media, step GIFs and partial recordings are labelled.
 
-## Demos
+<a id="file-sharing"></a>
 
-<a id="excalidraw"></a>
+## Share and organize files
 
-### [Excalidraw](https://github.com/excalidraw/excalidraw)
-
-Sketch diagrams and explain ideas on a hand-drawn whiteboard。 Open the web app; paid collaboration offerings are separate
-
-[![Excalidraw demo](media/excalidraw-demo.jpg)](media/excalidraw-demo.mp4)
-
-[Play video](media/excalidraw-demo.mp4) · 2× · 14.2 s · [Normal speed](media/normal-speed/excalidraw-demo.mp4)
-
-官方 npm 开源组件 0.18.1 本地演示：双语流程节点、连接箭头及完整图导出预览；实际屏幕采集经剪辑。PNG 保存未验证成功，不能计为导出实测完成 / Official component hosted locally; actual drawing and export-preview footage. PNG file saving remains unverified.
+For a quick transfer, start with the first two. Use GatherPack to assemble an archive, or Syncthing for ongoing synchronization.
 
 <a id="localsend"></a>
 
 ### [LocalSend](https://github.com/localsend/localsend)
 
-Share files across nearby devices。 Install on devices that can reach each other
+**Share files across nearby devices**
 
-[![LocalSend demo](media/localsend-demo.jpg)](media/localsend-demo.mp4)
+Setup：Install on devices that can reach each other · ★ 95,358
 
-[Play video](media/localsend-demo.mp4) · 2× · 12.5 s · [Normal speed](media/normal-speed/localsend-demo.mp4)
+![LocalSend recorded workflow](media/localsend-demo.gif)
 
-官方 LocalSend 1.18.2 实际接收录屏：确认发送方 → 接受 → 传输进度 → 完成；187,200 字节，接收文件 SHA-256 与发送端一致。同一台电脑上的协议测试端发送，不是两台实体设备，未录官方发送端 UI / Actual official-app receiving workflow. An isolated protocol client sends on the same computer; no second physical device or official sending UI is claimed. Received bytes verified equal.
+[MP4 video](https://dogchenya.github.io/everything_ok/media/localsend-demo.mp4) · 2× · 12.5 s · [Normal speed](https://dogchenya.github.io/everything_ok/media/normal-speed/localsend-demo.mp4)
 
-<a id="stirling-pdf"></a>
-
-### [Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF)
-
-Merge, split, convert and process PDFs。 Desktop or self-hosted; distinguish community features and paid plans
-
-[![Stirling PDF demo](media/stirling-pdf-demo.jpg)](media/stirling-pdf-demo.mp4)
-
-[Play video](media/stirling-pdf-demo.mp4) · 2× · 16.3 s · [Normal speed](media/normal-speed/stirling-pdf-demo.mp4)
-
-官方 Stirling PDF 3.2.1 本地部署：导入两份单页 PDF → 合并 → 翻页 → 下载。已核对结果为 2 页，正文和顺序正确。Windows 环境补齐官方 JPDFium 1.1.6 平台依赖后实测通过 / Official locally hosted deployment: import, merge, inspect and download. Two pages and content order verified; official Windows native dependency added.
-
-<a id="syncthing"></a>
-
-### [Syncthing](https://github.com/syncthing/syncthing)
-
-Keep folders synchronized across your devices。 Install and pair devices, then choose synchronized folders
-
-[![Syncthing demo](media/syncthing-demo.jpg)](media/syncthing-demo.mp4)
-
-[Play video](media/syncthing-demo.mp4) · 2× · 15.1 s · [Normal speed](media/normal-speed/syncthing-demo.mp4)
-
-本机双实例隔离演示：示例文件写入 → 重新扫描 → 接收端出现文件与最近更改；两端内容一致。实际连续屏幕采集，约 5 帧/秒 / Two isolated local nodes; actual timed screen capture; received contents verified equal.
-
-<a id="obs-studio"></a>
-
-### [OBS Studio](https://github.com/obsproject/obs-studio)
-
-Record tutorials, stream and compose multiple sources。 Desktop installation; configure video and audio sources
-
-[![OBS Studio demo](media/obs-studio-demo.jpg)](media/obs-studio-demo.mp4)
-
-[Play video](media/obs-studio-demo.mp4) · 3× · 21.1 s · [Normal speed](media/normal-speed/obs-studio-demo.mp4)
-
-官方 OBS 33.0.0 便携版实际操作：添加媒体源 → 导入合成视频 → 循环播放 → 适配画布 → 开始/停止录制 → 保存。确实生成 1280×720、约 15.33 秒的 H.264 视频；本次展示媒体源录制，未展示直播、摄像头或屏幕采集 / Actual official OBS workflow, verified output. Demonstrates media-source recording; streaming, webcam and display capture are not demonstrated.
-
-<a id="losslesscut"></a>
-
-### [LosslessCut](https://github.com/mifi/lossless-cut)
-
-Trim audio and video without re-encoding。 Desktop installation; learn ranges and format limitations
-
-[![LosslessCut demo](media/losslesscut-demo.jpg)](media/losslesscut-demo.mp4)
-
-[Play video](media/losslesscut-demo.mp4) · 2× · 20.5 s · [Normal speed](media/normal-speed/losslesscut-demo.mp4)
-
-官方 LosslessCut 3.70.1 实际录屏：12 秒合成片 → 标记 2.282–8.000 秒区间 → MP4 导出 → 成功。实际输出约 6.18 秒；关键帧裁剪存在边界偏差。183 个导出视频压缩数据包均与源片连续片段完全一致，已验证视频未重编码 / Actual editing/export workflow. Output ~6.18 s; keyframe cuts shift boundaries. All 183 compressed video packets match an input subsequence; no video re-encoding.
-
-<a id="gatherpack"></a>
-
-### [GatherPack](https://github.com/dogchenya/GatherPack)
-
-Collect scattered files and archive them together。 Desktop installation; Alpha, with platform validation limits
-
-[![GatherPack demo](media/gatherpack-demo.jpg)](media/gatherpack-demo.mp4)
-
-[Play video](media/gatherpack-demo.mp4) · 2× · 25.5 s · [Normal speed](media/normal-speed/gatherpack-demo.mp4)
-
-两个目录添加文件 → 检查目录 → ZIP 打包 → 写入 2、失败 0；真实录屏经剪辑，ZIP 完整性校验通过 / Edited actual recording; two files collected and ZIP integrity verified.
-
-<a id="powertoys"></a>
-
-### [PowerToys](https://github.com/microsoft/PowerToys)
-
-Productivity utilities for Windows。 Windows; install and enable selected utilities
-
-[Upstream demo video](https://github.com/microsoft/PowerToys/blob/main/src/settings-ui/Settings.UI/Assets/Settings/Modules/OOBE/FancyZones.mp4)
-
-上游 FancyZones 功能视频 / Upstream FancyZones video
-
-<a id="upscayl"></a>
-
-### [Upscayl](https://github.com/upscayl/upscayl)
-
-Upscale images with AI。 Desktop installation; requires compatible graphics hardware
-
-[Upstream demo video](https://github.com/upscayl/upscayl/blob/main/upscayl.mp4)
-
-上游视频 / Upstream video
-
-<a id="screentogif"></a>
-
-### [ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
-
-Record and edit screen GIFs。 Windows; check .NET runtime requirements
-
-![ScreenToGif demo](https://nickemanarin.github.io/ScreenToGif-Website/media/Editor.gif)
-
-[Demo source](https://nickemanarin.github.io/ScreenToGif-Website/media/Editor.gif)
-
-上游编辑器 GIF / Upstream editor GIF
-
-<a id="flow-launcher"></a>
-
-### [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher)
-
-Find files and launch apps quickly。 Windows desktop installation
-
-![Flow Launcher demo](https://user-images.githubusercontent.com/6903107/207167068-2196d2a3-2caa-4856-958b-a780fbda95c6.gif)
-
-[Demo source](https://user-images.githubusercontent.com/6903107/207167068-2196d2a3-2caa-4856-958b-a780fbda95c6.gif)
-
-上游 README 中的 GIF / GIF linked in upstream README
+Accept a file → receive it successfully. Sent by a protocol test client on the same computer; two physical devices are not demonstrated.
 
 <a id="pairdrop"></a>
 
 ### [PairDrop](https://github.com/schlagmichdoch/PairDrop)
 
-Transfer files between browsers。 Use the hosted app; self-hosting needs a server
+**Transfer files between browsers**
+
+Setup：Use the hosted app; self-hosting needs a server · ★ 11,663
 
 ![PairDrop demo](https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/docs/pairdrop_screenshot_mobile.gif)
 
-[Demo source](https://github.com/schlagmichdoch/PairDrop/blob/master/docs/pairdrop_screenshot_mobile.gif)
+[Upstream GIF source](https://github.com/schlagmichdoch/PairDrop/blob/master/docs/pairdrop_screenshot_mobile.gif)
 
-上游 GIF / Upstream GIF
+Demo provided by the upstream project; original source retained.
 
-<a id="n8n"></a>
+<a id="gatherpack"></a>
 
-### [n8n](https://github.com/n8n-io/n8n)
+### [GatherPack](https://github.com/dogchenya/GatherPack) · Own project
 
-Connect apps and automate repetitive workflows。 Self-host or use a cloud account; integrations may require credentials or fees
+**Collect scattered files and archive them together**
 
-[![n8n demo](media/n8n-demo.jpg)](media/n8n-demo.mp4)
+Setup：Desktop installation; Alpha, with platform validation limits · ★ 0
 
-[Play video](media/n8n-demo.mp4) · 3× · 20.0 s · [Normal speed](media/normal-speed/n8n-demo.mp4)
+![GatherPack recorded workflow](media/gatherpack-demo.gif)
 
-官方 n8n 2.44.6 本地隔离实例：导入三节点模板 → 查看并修改输入参数 → 执行 → 核对真实输出。三个节点均成功；修改后的受众、zh/en 语言标记和 pending_review 状态已在输出表格核对。不使用外部账号、API 或模型；演示数据不修改主站人工审核记录 / Actual local execution with three successful nodes and verified output. No external credentials or models; demo output does not modify the catalog human reviews.
+[MP4 video](https://dogchenya.github.io/everything_ok/media/gatherpack-demo.mp4) · 2× · 25.5 s · [Normal speed](https://dogchenya.github.io/everything_ok/media/normal-speed/gatherpack-demo.mp4)
 
-<a id="ollama"></a>
+Collect files from two folders → inspect the collection → create a ZIP; two files written, no failures.
 
-### [Ollama](https://github.com/ollama/ollama)
+<a id="syncthing"></a>
 
-Run and use open models on your own computer。 Install and download models; sufficient RAM and storage required; cloud plans differ
+### [Syncthing](https://github.com/syncthing/syncthing)
 
-[![Ollama demo](media/ollama-demo.jpg)](media/ollama-demo.mp4)
+**Keep folders synchronized across your devices**
 
-[Play video](media/ollama-demo.mp4) · 2× · 10.7 s · [Normal speed](media/normal-speed/ollama-demo.mp4)
+Setup：Install and pair devices, then choose synchronized folders · ★ 89,671
 
-官方 Ollama 0.40.10 CPU 服务和 qwen2.5:0.5b：选择已下载模型 → 输入翻译问题 → 实际流式推理 → 核对回答与耗时。画面是明确标注的 API 测试客户端，并非 Ollama 官方桌面界面；输出来自真实本地模型。只验证此问答流程，未覆盖其他模型、工具调用或部署功能 / Real local inference via a labelled API test client, not the official desktop UI. Only this prompt workflow is verified.
+![Syncthing recorded workflow](media/syncthing-demo.gif)
+
+[MP4 video](https://dogchenya.github.io/everything_ok/media/syncthing-demo.mp4) · 2× · 15.1 s · [Normal speed](https://dogchenya.github.io/everything_ok/media/normal-speed/syncthing-demo.mp4)
+
+Two isolated local instances: write a file → synchronize → verify the received content.
+
+<a id="office"></a>
+
+## Documents and productivity
+
+<a id="stirling-pdf"></a>
+
+### [Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+
+**Merge, split, convert and process PDFs**
+
+Setup：Desktop or self-hosted; distinguish community features and paid plans · ★ 94,822
+
+![Stirling PDF recorded workflow](media/stirling-pdf-demo.gif)
+
+[MP4 video](https://dogchenya.github.io/everything_ok/media/stirling-pdf-demo.mp4) · 2× · 16.3 s · [Normal speed](https://dogchenya.github.io/everything_ok/media/normal-speed/stirling-pdf-demo.mp4)
+
+Import two PDFs → merge → inspect pages → download; page count and order verified.
+
+<a id="excalidraw"></a>
+
+### [Excalidraw](https://github.com/excalidraw/excalidraw)
+
+**Sketch diagrams and explain ideas on a hand-drawn whiteboard**
+
+Setup：Open the web app; paid collaboration offerings are separate · ★ 134,441
+
+![Excalidraw recorded workflow](media/excalidraw-demo.gif)
+
+[MP4 video](https://dogchenya.github.io/everything_ok/media/excalidraw-demo.mp4) · 2× · 14.2 s · [Normal speed](https://dogchenya.github.io/everything_ok/media/normal-speed/excalidraw-demo.mp4)
+
+Draw a bilingual diagram → open export preview. File saving remains unverified; this is a partial workflow.
+
+<a id="powertoys"></a>
+
+### [PowerToys](https://github.com/microsoft/PowerToys)
+
+**Productivity utilities for Windows**
+
+Setup：Windows; install and enable selected utilities · ★ 139,688
+
+[▶ Watch upstream demo video](https://raw.githubusercontent.com/microsoft/PowerToys/main/src/settings-ui/Settings.UI/Assets/Settings/Modules/OOBE/FancyZones.mp4)
+
+Demo provided by the upstream project; original source retained.
+
+<a id="flow-launcher"></a>
+
+### [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher)
+
+**Find files and launch apps quickly**
+
+Setup：Windows desktop installation · ★ 15,855
+
+![Flow Launcher demo](https://user-images.githubusercontent.com/6903107/207167068-2196d2a3-2caa-4856-958b-a780fbda95c6.gif)
+
+[Upstream GIF source](https://user-images.githubusercontent.com/6903107/207167068-2196d2a3-2caa-4856-958b-a780fbda95c6.gif)
+
+Demo provided by the upstream project; original source retained.
+
+<a id="media-tools"></a>
+
+## Images, recording and video
+
+<a id="losslesscut"></a>
+
+### [LosslessCut](https://github.com/mifi/lossless-cut)
+
+**Trim audio and video without re-encoding**
+
+Setup：Desktop installation; learn ranges and format limitations · ★ 45,112
+
+![LosslessCut recorded workflow](media/losslesscut-demo.gif)
+
+[MP4 video](https://dogchenya.github.io/everything_ok/media/losslesscut-demo.mp4) · 2× · 20.5 s · [Normal speed](https://dogchenya.github.io/everything_ok/media/normal-speed/losslesscut-demo.mp4)
+
+Import a video → select a segment → export without video re-encoding. Keyframe cuts can shift segment boundaries.
+
+<a id="screentogif"></a>
+
+### [ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
+
+**Record and edit screen GIFs**
+
+Setup：Windows; check .NET runtime requirements · ★ 27,841
+
+![ScreenToGif demo](https://nickemanarin.github.io/ScreenToGif-Website/media/Editor.gif)
+
+[Upstream GIF source](https://nickemanarin.github.io/ScreenToGif-Website/media/Editor.gif)
+
+Demo provided by the upstream project; original source retained.
+
+<a id="obs-studio"></a>
+
+### [OBS Studio](https://github.com/obsproject/obs-studio)
+
+**Record tutorials, stream and compose multiple sources**
+
+Setup：Desktop installation; configure video and audio sources · ★ 77,992
+
+![OBS Studio recorded workflow](media/obs-studio-demo.gif)
+
+[MP4 video](https://dogchenya.github.io/everything_ok/media/obs-studio-demo.mp4) · 3× · 21.1 s · [Normal speed](https://dogchenya.github.io/everything_ok/media/normal-speed/obs-studio-demo.mp4)
+
+Add a media source → fit to canvas → start and stop recording → save the video.
+
+<a id="upscayl"></a>
+
+### [Upscayl](https://github.com/upscayl/upscayl)
+
+**Upscale images with AI**
+
+Setup：Desktop installation; requires compatible graphics hardware · ★ 50,922
+
+[▶ Watch upstream demo video](https://raw.githubusercontent.com/upscayl/upscayl/main/upscayl.mp4)
+
+Demo provided by the upstream project; original source retained.
+
+<a id="ai-tools"></a>
+
+## AI and local models
 
 <a id="open-webui"></a>
 
 ### [Open WebUI](https://github.com/open-webui/open-webui)
 
-Chat with local and API models through one interface。 Requires deployment and Ollama or a compatible API; compute is separate
+**Chat with local and API models through one interface**
 
-[![Open WebUI demo](media/open-webui-demo.jpg)](media/open-webui-demo.mp4)
+Setup：Requires deployment and Ollama or a compatible API; compute is separate · ★ 156,595
 
-[Play video](media/open-webui-demo.mp4) · 3× · 19.3 s · [Normal speed](media/normal-speed/open-webui-demo.mp4)
+![Open WebUI recorded workflow](media/open-webui-demo.gif)
 
-官方 Open WebUI 0.12.3 本地隔离部署（官方 slim 依赖，保留登录认证），连接实际 Ollama / qwen2.5:0.5b：输入问题 → 中文翻译 → 追问 → 明确原文重试 → 英文翻译 → 刷新核对三轮历史。保留小模型未理解上下文追问的真实失误，未声称已验证知识库、语音或工具调用 / Actual official UI and model responses, including a failed implicit follow-up and successful explicit retry; all three turns survive reload. Knowledge, voice and tool calling are not verified.
+[MP4 video](https://dogchenya.github.io/everything_ok/media/open-webui-demo.mp4) · 3× · 19.3 s · [Normal speed](https://dogchenya.github.io/everything_ok/media/normal-speed/open-webui-demo.mp4)
 
-<a id="immich"></a>
+Connect a local model → chat and retry → reload saved history. Includes a real failed implicit follow-up from the small model.
 
-### [Immich](https://github.com/immich-app/immich)
+<a id="ollama"></a>
 
-Host your own photo library。 Requires a server, Docker and storage maintenance
+### [Ollama](https://github.com/ollama/ollama)
 
-![Immich demo](media/immich-demo.gif)
+**Run and use open models on your own computer**
 
-[Demo source](media/immich-demo.gif)
+Setup：Install and download models; sufficient RAM and storage required; cloud plans differ · ★ 184,505
 
-官方公开演示账号；照片时间线→相册。实例禁用上传，未演示上传 / Official public demo account; timeline to albums. Uploads are disabled and not demonstrated
+![Ollama recorded workflow](media/ollama-demo.gif)
+
+[MP4 video](https://dogchenya.github.io/everything_ok/media/ollama-demo.mp4) · 2× · 10.7 s · [Normal speed](https://dogchenya.github.io/everything_ok/media/normal-speed/ollama-demo.mp4)
+
+Local translation and execution metrics, shown in a labelled API test client rather than the official desktop UI.
+
+<a id="developer-tools"></a>
+
+## Development and automation
 
 <a id="hoppscotch"></a>
 
 ### [Hoppscotch](https://github.com/hoppscotch/hoppscotch)
 
-Send requests and test APIs。 Requires API basics; some connections need extra configuration
+**Send requests and test APIs**
+
+Setup：Requires API basics; some connections need extra configuration · ★ 80,677
 
 ![Hoppscotch demo](media/hoppscotch-demo.gif)
 
-[Demo source](media/hoppscotch-demo.gif)
+Send a GET request → inspect a 200 OK response. Shown as a step GIF.
 
-官方在线实例；公开 echo 接口 GET→200 OK / Official hosted app; public echo GET request to 200 OK
+<a id="n8n"></a>
 
-## Costs, licenses and media
+### [n8n](https://github.com/n8n-io/n8n)
 
-Some tools require hosting, models or paid APIs. Source availability does not imply that all features are free. Projects including n8n and Open WebUI have specific license terms; check their current documentation. Upstream demos remain linked to their original sources.
+**Connect apps and automate repetitive workflows**
 
-[Media and verification notes](docs/MEDIA.md) · [Contribution guide](CONTRIBUTING.md)
+Setup：Self-host or use a cloud account; integrations may require credentials or fees · ★ 208,428
 
-## Maintenance and local review
+![n8n recorded workflow](media/n8n-demo.gif)
 
-`node scripts/build.mjs` regenerates the READMEs and gallery from catalog data.
+[MP4 video](https://dogchenya.github.io/everything_ok/media/n8n-demo.mp4) · 3× · 20.0 s · [Normal speed](https://dogchenya.github.io/everything_ok/media/normal-speed/n8n-demo.mp4)
 
-`node review/server.mjs` starts the local review interface: http://127.0.0.1:43121/
+Import a three-node template → edit input → execute → inspect output; no external accounts or APIs required.
 
-Review notes and raw capture data stay local. AppFlowy, RustDesk and Dify are omitted from this release because their recordings were not completed.
+<a id="photos"></a>
+
+## Photo management
+
+<a id="immich"></a>
+
+### [Immich](https://github.com/immich-app/immich)
+
+**Host your own photo library**
+
+Setup：Requires a server, Docker and storage maintenance · ★ 117,038
+
+![Immich demo](media/immich-demo.gif)
+
+Official public demo: timeline → albums. Step GIF; uploads are disabled and not demonstrated.
+
+## Notes and contributions
+
+Some tools require hosting, models or paid APIs. Check official licensing and pricing. Stars do not guarantee quality, and demos cover only the stated workflows.
+
+[Sources and demo scope](docs/MEDIA.md) · [Suggest a tool](https://github.com/dogchenya/everything_ok/issues/new) · [Contributing and maintenance](CONTRIBUTING.md)
