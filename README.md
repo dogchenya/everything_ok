@@ -4,7 +4,7 @@
 
 好用的 GitHub 工具，按用途分类，先看演示再决定要不要用。
 
-**想简单分享文件？**同一网络传文件看 [LocalSend](#localsend)，不想安装看 [PairDrop](#pairdrop)，跨目录收集打包看 [GatherPack](#gatherpack)。
+**想简单分享文件？** 同一网络传文件看 [LocalSend](#localsend)，不想安装看 [PairDrop](#pairdrop)，跨目录收集打包看 [GatherPack](#gatherpack)。
 
 录屏已转为 GIF，在 README 中直接播放；点动图下方的「MP4 视频」可打开清晰版。录屏默认 2–3 倍速，原速版也保留。
 
