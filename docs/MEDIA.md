@@ -24,9 +24,9 @@ All 17 projects in this release passed human review. Each demo covers a selected
 | Immich | 步骤 GIF / Step GIF | [演示 / Demo](../media/immich-demo.gif) | 官方公开演示账号；照片时间线→相册。实例禁用上传，未演示上传 / Official public demo account; timeline to albums. Uploads are disabled and not demonstrated |
 | Hoppscotch | 步骤 GIF / Step GIF | [演示 / Demo](../media/hoppscotch-demo.gif) | 官方在线实例；公开 echo 接口 GET→200 OK / Official hosted app; public echo GET request to 200 OK |
 
-自行录制视频默认 2–3 倍速，结尾停留 2 秒；原速副本在 media/normal-speed/。原速版也经过剪辑，保留实测流程。
+自行录制视频默认 2–3 倍速，结尾停留 2 秒，保留已录流程的关键操作与结果。
 
-Local recordings play at 2–3× with a two-second result hold. Edited normal-speed copies are in media/normal-speed/.
+Local recordings play at 2–3× with a two-second result hold, retaining the recorded workflow stages and results.
 
 上游素材仅链接或嵌入，不复制为自有素材；其版权、商标与许可证归原权利人。本站不提供第三方工具安装包。项目代码许可证不自动适用于全部视频和图片。
 

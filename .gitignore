@@ -1,25 +1,23 @@
-# Local tooling, research and review history
+# Local collection, recording and maintenance tools
 .tools/
 research/
-catalog/batches/
-catalog/reviews.json
-catalog/reviews.json.tmp
-review/*.log
-review/preview*.png
+review/
+scripts/
+catalog/
+package.json
+.github/workflows/
 
-# Raw capture directories; retain published normal-speed copies
+# Raw captures, samples and duplicate normal-speed recordings
 /media/*/
-!/media/normal-speed/
 media/cyberchef-demo.gif
 
-# Earlier local collection scripts
-build_catalog.mjs
-build_quality_catalog.mjs
-inspect-projects.mjs
-make_demo_gifs.py
-make_demo_sample.mjs
-research.mjs
+# Earlier local helper scripts
+/*_catalog.mjs
+/inspect-*.mjs
+/make_demo*
+/research.mjs
 
 node_modules/
+*.log
 .DS_Store
 Thumbs.db

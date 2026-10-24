@@ -1,8 +1,0 @@
-[
-  {"id":"file-sharing","zh":"文件分享与整理","en":"Share and organize files","tools":["localsend","pairdrop","gatherpack","syncthing"]},
-  {"id":"office","zh":"文档与日常效率","en":"Documents and productivity","tools":["stirling-pdf","excalidraw","powertoys","flow-launcher"]},
-  {"id":"media-tools","zh":"图像、录屏与视频","en":"Images, recording and video","tools":["losslesscut","screentogif","obs-studio","upscayl"]},
-  {"id":"ai-tools","zh":"AI 与本地模型","en":"AI and local models","tools":["open-webui","ollama"]},
-  {"id":"developer-tools","zh":"开发与自动化","en":"Development and automation","tools":["hoppscotch","n8n"]},
-  {"id":"photos","zh":"照片管理","en":"Photo management","tools":["immich"]}
-]
