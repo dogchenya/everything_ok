@@ -2,21 +2,13 @@
 
 [简体中文](README.md) · [Video gallery](https://dogchenya.github.io/everything_ok/)
 
-Useful GitHub tools, grouped by what you want to do. See them work before trying them.
+Useful GitHub tools, grouped by purpose, with descriptions, setup requirements and GIF demos.
 
-**Want to share files easily?** Try [LocalSend](#localsend) on a local network, [PairDrop](#pairdrop) in a browser, or [GatherPack](#gatherpack) to collect and archive scattered files.
-
-Recorded workflows play here as GIFs. Use the MP4 link below each preview for a clearer video. Recordings run at 2–3×, with normal-speed copies available.
-
-[Share and organize files · 4](#file-sharing) · [Documents and productivity · 4](#office) · [Images, recording and video · 4](#media-tools) · [AI and local models · 2](#ai-tools) · [Development and automation · 2](#developer-tools) · [Photo management · 1](#photos)
-
-17 reviewed projects. Star snapshot: 2026-10-24. Upstream media, step GIFs and partial recordings are labelled.
+[Share and organize files](#file-sharing) · [Documents and productivity](#office) · [Images, recording and video](#media-tools) · [AI and local models](#ai-tools) · [Development and automation](#developer-tools) · [Photo management](#photos)
 
 <a id="file-sharing"></a>
 
 ## Share and organize files
-
-For a quick transfer, start with the first two. Use GatherPack to assemble an archive, or Syncthing for ongoing synchronization.
 
 <table>
 <thead><tr><th>Tool</th><th>Purpose and setup</th><th>GIF demo</th></tr></thead>

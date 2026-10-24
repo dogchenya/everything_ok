@@ -1,0 +1,22 @@
+name: 推荐工具 / Suggest a tool
+description: 推荐有实际用途和演示的 GitHub 项目 / Suggest a useful GitHub project with a demo.
+title: "[推荐] "
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: GitHub 仓库 / Repository
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 能解决什么问题？/ What does it do?
+      description: 简述用途、使用门槛与费用 / Briefly describe its purpose, setup and costs.
+    validations:
+      required: true
+  - type: input
+    id: demo
+    attributes:
+      label: GIF 或视频链接 / Demo link

@@ -1,22 +1,14 @@
 # everything_ok
 
-[English](README.en.md) · [视频版网页](https://dogchenya.github.io/everything_ok/)
+[English](README.en.md) · [演示网页](https://dogchenya.github.io/everything_ok/)
 
-好用的 GitHub 工具，按用途分类，先看演示再决定要不要用。
+实用 GitHub 工具合集，按用途分类，附简介、使用门槛和 GIF 演示。
 
-**想简单分享文件？** 同一网络传文件看 [LocalSend](#localsend)，不想安装看 [PairDrop](#pairdrop)，跨目录收集打包看 [GatherPack](#gatherpack)。
-
-录屏已转为 GIF，在 README 中直接播放；点动图下方的「MP4 视频」可打开清晰版。录屏默认 2–3 倍速，原速版也保留。
-
-[文件分享与整理 · 4](#file-sharing) · [文档与日常效率 · 4](#office) · [图像、录屏与视频 · 4](#media-tools) · [AI 与本地模型 · 2](#ai-tools) · [开发与自动化 · 2](#developer-tools) · [照片管理 · 1](#photos)
-
-共 17 个已审核项目。星标快照：2026-10-24；上游素材、步骤 GIF 和部分实测会单独标明。
+[文件分享与整理](#file-sharing) · [文档与日常效率](#office) · [图像、录屏与视频](#media-tools) · [AI 与本地模型](#ai-tools) · [开发与自动化](#developer-tools) · [照片管理](#photos)
 
 <a id="file-sharing"></a>
 
 ## 文件分享与整理
-
-临时发文件优先看前两个；整理成包用 GatherPack，长期保持文件一致再考虑 Syncthing。
 
 <table>
 <thead><tr><th>工具</th><th>用途与上手门槛</th><th>GIF 演示</th></tr></thead>

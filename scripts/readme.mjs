@@ -24,12 +24,10 @@ const allIds=categories.flatMap(c=>c.tools);
 if(allIds.length!==tools.length||new Set(allIds).size!==tools.length||allIds.some(id=>!byId.has(id)))throw Error('Every tool must belong to exactly one category');
 for(const lang of ['zh','en']){
  const zh=lang==='zh';
- let s=`# everything_ok\n\n${zh?'[English](README.en.md)':'[简体中文](README.md)'} · [${zh?'视频版网页':'Video gallery'}](https://dogchenya.github.io/everything_ok/)\n\n${zh?'好用的 GitHub 工具，按用途分类，先看演示再决定要不要用。':'Useful GitHub tools, grouped by what you want to do. See them work before trying them.'}\n\n${zh?'**想简单分享文件？** 同一网络传文件看 [LocalSend](#localsend)，不想安装看 [PairDrop](#pairdrop)，跨目录收集打包看 [GatherPack](#gatherpack)。':'**Want to share files easily?** Try [LocalSend](#localsend) on a local network, [PairDrop](#pairdrop) in a browser, or [GatherPack](#gatherpack) to collect and archive scattered files.'}\n\n${zh?'录屏已转为 GIF，在 README 中直接播放；点动图下方的「MP4 视频」可打开清晰版。录屏默认 2–3 倍速，原速版也保留。':'Recorded workflows play here as GIFs. Use the MP4 link below each preview for a clearer video. Recordings run at 2–3×, with normal-speed copies available.'}\n\n`;
- s+=categories.map(c=>`[${c[lang]} · ${c.tools.length}](#${c.id})`).join(' · ');
- s+=`\n\n${zh?'共 17 个已审核项目。星标快照：2026-10-24；上游素材、步骤 GIF 和部分实测会单独标明。':'17 reviewed projects. Star snapshot: 2026-10-24. Upstream media, step GIFs and partial recordings are labelled.'}\n\n`;
+ let s=`# everything_ok\n\n${zh?'[English](README.en.md)':'[简体中文](README.md)'} · [${zh?'演示网页':'Video gallery'}](https://dogchenya.github.io/everything_ok/)\n\n${zh?'实用 GitHub 工具合集，按用途分类，附简介、使用门槛和 GIF 演示。':'Useful GitHub tools, grouped by purpose, with descriptions, setup requirements and GIF demos.'}\n\n`;
+ s+=categories.map(c=>`[${c[lang]}](#${c.id})`).join(' · ')+'\n\n';
  for(const c of categories){
   s+=`<a id="${c.id}"></a>\n\n## ${c[lang]}\n\n`;
-  if(c.id==='file-sharing')s+=zh?'临时发文件优先看前两个；整理成包用 GatherPack，长期保持文件一致再考虑 Syncthing。\n\n':'For a quick transfer, start with the first two. Use GatherPack to assemble an archive, or Syncthing for ongoing synchronization.\n\n';
   s+=`<table>\n<thead><tr><th>${zh?'工具':'Tool'}</th><th>${zh?'用途与上手门槛':'Purpose and setup'}</th><th>${zh?'GIF 演示':'GIF demo'}</th></tr></thead>\n<tbody>\n`;
   for(const id of c.tools){
    const t=byId.get(id),d=t.demo,local=d.url.startsWith('media/'),video=/\.(mp4|webm)$/i.test(d.url);

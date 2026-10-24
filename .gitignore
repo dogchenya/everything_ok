@@ -1,43 +1,25 @@
+# Local tooling, research and review history
 .tools/
-catalog/reviews.json
-catalog/reviews.json.tmp
-review/server.log
-review/server.err.log
-media/recordings/**/raw*.mp4
-media/recordings/**/workflow.mp4
-media/recordings/**/probe*
-media/recordings/**/frames/
-media/samples/
-media/recordings/**/nodes/
-media/recordings/**/export-*/
-media/recordings/**/part-*.mp4
-media/recordings/**/edited.mp4
-media/recordings/**/contact*.png
-media/recordings/**/workflow*.mp4
-media/recordings/**/import*/
-media/recordings/**/merge*/
-media/recordings/**/result*/
-media/recordings/**/draw*/
-media/recordings/**/fit-layout/
-media/recordings/**/inspect*/
-media/recordings/**/configure/
-media/recordings/**/execute/
-media/recordings/**/followup/
-
-# Local research, installations, raw capture data and private review history
 research/
 catalog/batches/
-media/recordings/
+catalog/reviews.json
+catalog/reviews.json.tmp
+review/*.log
 review/preview*.png
+
+# Raw capture directories; retain published normal-speed copies
+/media/*/
+!/media/normal-speed/
 media/cyberchef-demo.gif
+
+# Earlier local collection scripts
 build_catalog.mjs
 build_quality_catalog.mjs
 inspect-projects.mjs
 make_demo_gifs.py
 make_demo_sample.mjs
 research.mjs
+
+node_modules/
 .DS_Store
 Thumbs.db
-
-/media/*/
-!/media/normal-speed/
