@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>工具精选 · 审核台</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+ <header class="topbar"><a href="/" class="brand"><span class="brand-mark">G<span>+</span></span>工具精选<span class="brand-suffix">/ 审核台</span></a><span class="local-pill"><i></i>本地审核</span></header>
+ <main>
+  <section class="intro"><div><p class="eyebrow">YOUR NEXT USEFUL FIND</p><h1>高星精选，实际验证。</h1><p class="lead">首批发布：17 个已通过人工审核的项目。<br>未完成补录的 3 个候选已跳过；演示来源与实测范围明确标注。</p></div><div class="progress-box"><div class="progress-label"><span>本轮审核进度</span><b id="progress-text">正在加载</b></div><div class="progress-track"><div id="progress-bar"></div></div><div class="counts"><span><i class="approved-dot"></i>通过 <b id="approved-count">0</b></span><span><i class="changes-dot"></i>需修改 <b id="changes-count">0</b></span><span><i class="rejected-dot"></i>不收录 <b id="rejected-count">0</b></span></div></div></section>
+  <section class="toolbar" aria-label="筛选工具"><div class="tabs" role="group" aria-label="审核状态"><button class="active" data-filter="all">全部 <span id="total-count">17</span></button><button data-filter="pending">待审核</button><button data-filter="approved">通过</button><button data-filter="changes">需修改</button><button data-filter="rejected">不收录</button></div><div class="search-row"><input id="search" type="search" placeholder="搜索名称、用途…" aria-label="搜索工具"><select id="media-filter" aria-label="筛选演示"><option value="all">全部演示状态</option><option value="video">自行录制视频</option><option value="local">全部本地素材</option><option value="ready">有演示素材</option><option value="missing">待补 / 不可播放</option></select><button id="export" class="export">导出审核结果 ↓</button></div></section>
+  <div class="list-caption"><span id="list-count">正在加载清单…</span><span>GIF 自动循环 · 视频点击播放 · 可放大查看</span></div>
+  <p id="load-error" class="error" hidden></p><div id="cards" class="cards"></div>
+  <footer>中英文工具精选 · 本机审核记录独立保存 <span>自行录制视频、上游素材和步骤 GIF 分别标注；保留上一轮审核意见。</span></footer>
+ </main>
+ <dialog id="preview"><div class="dialog-head"><strong id="preview-title"></strong><button id="close-preview" aria-label="关闭放大演示">关闭 ✕</button></div><div id="preview-content"></div></dialog>
+ <div id="toast" role="status" aria-live="polite"></div>
+</body></html>

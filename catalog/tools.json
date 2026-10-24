@@ -1,0 +1,644 @@
+[
+  {
+    "id": "immich",
+    "name": "Immich",
+    "repository": "https://github.com/immich-app/immich",
+    "summary": {
+      "zh": "搭建自己的照片管理服务",
+      "en": "Host your own photo library"
+    },
+    "requirements": {
+      "zh": "需要服务器、Docker、存储维护",
+      "en": "Requires a server, Docker and storage maintenance"
+    },
+    "demo": {
+      "status": "generated_step_gif",
+      "url": "media/immich-demo.gif",
+      "note": "官方公开演示账号；照片时间线→相册。实例禁用上传，未演示上传 / Official public demo account; timeline to albums. Uploads are disabled and not demonstrated"
+    },
+    "review": "approved",
+    "source": "https://github.com/immich-app/immich#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "audience": "technical",
+    "setupLevel": "技术进阶 / 需服务配置",
+    "quality": {
+      "stars": 117038,
+      "forks": 7322,
+      "archived": false,
+      "license": "AGPL-3.0",
+      "lastPush": "2026-10-24T01:51:55Z",
+      "checkedAt": "2026-10-24T03:30:21.210Z"
+    },
+    "selection": {
+      "cohort": "retained",
+      "reason": "保留上一轮已通过或明确要求补录的项目。"
+    }
+  },
+  {
+    "id": "hoppscotch",
+    "name": "Hoppscotch",
+    "repository": "https://github.com/hoppscotch/hoppscotch",
+    "summary": {
+      "zh": "发送请求并调试 API",
+      "en": "Send requests and test APIs"
+    },
+    "requirements": {
+      "zh": "需要 API 基础；部分连接需额外配置",
+      "en": "Requires API basics; some connections need extra configuration"
+    },
+    "demo": {
+      "status": "generated_step_gif",
+      "url": "media/hoppscotch-demo.gif",
+      "note": "官方在线实例；公开 echo 接口 GET→200 OK / Official hosted app; public echo GET request to 200 OK"
+    },
+    "review": "approved",
+    "source": "https://github.com/hoppscotch/hoppscotch#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "audience": "technical",
+    "setupLevel": "技术进阶 / 需服务配置",
+    "quality": {
+      "stars": 80677,
+      "forks": 6178,
+      "archived": false,
+      "license": "MIT",
+      "lastPush": "2026-10-23T08:14:56Z",
+      "checkedAt": "2026-10-24T03:30:21.267Z"
+    },
+    "selection": {
+      "cohort": "retained",
+      "reason": "保留上一轮已通过或明确要求补录的项目。"
+    }
+  },
+  {
+    "id": "pairdrop",
+    "name": "PairDrop",
+    "repository": "https://github.com/schlagmichdoch/PairDrop",
+    "summary": {
+      "zh": "浏览器跨设备传文件",
+      "en": "Transfer files between browsers"
+    },
+    "requirements": {
+      "zh": "网页即用；自部署需服务器环境",
+      "en": "Use the hosted app; self-hosting needs a server"
+    },
+    "demo": {
+      "status": "source_found",
+      "url": "https://github.com/schlagmichdoch/PairDrop/blob/master/docs/pairdrop_screenshot_mobile.gif",
+      "note": "上游 GIF / Upstream GIF"
+    },
+    "review": "approved",
+    "source": "https://github.com/schlagmichdoch/PairDrop#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "audience": "general",
+    "setupLevel": "网页即用",
+    "quality": {
+      "stars": 11663,
+      "forks": 707,
+      "archived": false,
+      "license": "GPL-3.0",
+      "lastPush": "2026-04-22T20:27:50Z",
+      "checkedAt": "2026-10-24T03:30:21.210Z"
+    },
+    "selection": {
+      "cohort": "retained",
+      "reason": "保留上一轮已通过或明确要求补录的项目。"
+    }
+  },
+  {
+    "id": "powertoys",
+    "name": "PowerToys",
+    "repository": "https://github.com/microsoft/PowerToys",
+    "summary": {
+      "zh": "Windows 效率工具集",
+      "en": "Productivity utilities for Windows"
+    },
+    "requirements": {
+      "zh": "Windows；安装后启用所需功能",
+      "en": "Windows; install and enable selected utilities"
+    },
+    "demo": {
+      "status": "source_found",
+      "url": "https://github.com/microsoft/PowerToys/blob/main/src/settings-ui/Settings.UI/Assets/Settings/Modules/OOBE/FancyZones.mp4",
+      "note": "上游 FancyZones 功能视频 / Upstream FancyZones video"
+    },
+    "review": "approved",
+    "source": "https://github.com/microsoft/PowerToys#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "audience": "general",
+    "setupLevel": "桌面安装",
+    "quality": {
+      "stars": 139688,
+      "forks": 8622,
+      "archived": false,
+      "license": "MIT",
+      "lastPush": "2026-10-23T21:22:18Z",
+      "checkedAt": "2026-10-24T03:30:20.817Z"
+    },
+    "selection": {
+      "cohort": "retained",
+      "reason": "保留上一轮已通过或明确要求补录的项目。"
+    }
+  },
+  {
+    "id": "flow-launcher",
+    "name": "Flow Launcher",
+    "repository": "https://github.com/Flow-Launcher/Flow.Launcher",
+    "summary": {
+      "zh": "搜索文件、快速启动应用",
+      "en": "Find files and launch apps quickly"
+    },
+    "requirements": {
+      "zh": "Windows 桌面安装",
+      "en": "Windows desktop installation"
+    },
+    "demo": {
+      "status": "source_found",
+      "url": "https://user-images.githubusercontent.com/6903107/207167068-2196d2a3-2caa-4856-958b-a780fbda95c6.gif",
+      "note": "上游 README 中的 GIF / GIF linked in upstream README"
+    },
+    "review": "approved",
+    "source": "https://github.com/Flow-Launcher/Flow.Launcher#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "audience": "general",
+    "setupLevel": "桌面安装",
+    "quality": {
+      "stars": 15855,
+      "forks": 665,
+      "archived": false,
+      "license": "MIT",
+      "lastPush": "2026-10-21T12:33:22Z",
+      "checkedAt": "2026-10-24T03:30:21.216Z"
+    },
+    "selection": {
+      "cohort": "retained",
+      "reason": "保留上一轮已通过或明确要求补录的项目。"
+    }
+  },
+  {
+    "id": "screentogif",
+    "name": "ScreenToGif",
+    "repository": "https://github.com/NickeManarin/ScreenToGif",
+    "summary": {
+      "zh": "录屏并编辑 GIF",
+      "en": "Record and edit screen GIFs"
+    },
+    "requirements": {
+      "zh": "Windows；注意 .NET 运行库要求",
+      "en": "Windows; check .NET runtime requirements"
+    },
+    "demo": {
+      "status": "source_found",
+      "url": "https://nickemanarin.github.io/ScreenToGif-Website/media/Editor.gif",
+      "note": "上游编辑器 GIF / Upstream editor GIF"
+    },
+    "review": "approved",
+    "source": "https://github.com/NickeManarin/ScreenToGif#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "audience": "general",
+    "setupLevel": "桌面安装",
+    "quality": {
+      "stars": 27841,
+      "forks": 2380,
+      "archived": false,
+      "license": "MS-PL",
+      "lastPush": "2026-10-14T15:04:38Z",
+      "checkedAt": "2026-10-24T03:30:21.267Z"
+    },
+    "selection": {
+      "cohort": "retained",
+      "reason": "保留上一轮已通过或明确要求补录的项目。"
+    }
+  },
+  {
+    "id": "upscayl",
+    "name": "Upscayl",
+    "repository": "https://github.com/upscayl/upscayl",
+    "summary": {
+      "zh": "用 AI 放大图片",
+      "en": "Upscale images with AI"
+    },
+    "requirements": {
+      "zh": "桌面安装；需兼容的显卡环境",
+      "en": "Desktop installation; requires compatible graphics hardware"
+    },
+    "demo": {
+      "status": "source_found",
+      "url": "https://github.com/upscayl/upscayl/blob/main/upscayl.mp4",
+      "note": "上游视频 / Upstream video"
+    },
+    "review": "approved",
+    "source": "https://github.com/upscayl/upscayl#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "audience": "general",
+    "setupLevel": "桌面安装",
+    "quality": {
+      "stars": 50922,
+      "forks": 2628,
+      "archived": false,
+      "license": "AGPL-3.0",
+      "lastPush": "2026-10-05T19:13:12Z",
+      "checkedAt": "2026-10-24T03:30:21.678Z"
+    },
+    "selection": {
+      "cohort": "retained",
+      "reason": "保留上一轮已通过或明确要求补录的项目。"
+    }
+  },
+  {
+    "id": "localsend",
+    "name": "LocalSend",
+    "repository": "https://github.com/localsend/localsend",
+    "summary": {
+      "zh": "跨设备局域网传文件",
+      "en": "Share files across nearby devices"
+    },
+    "requirements": {
+      "zh": "下载安装；设备需能互相访问",
+      "en": "Install on devices that can reach each other"
+    },
+    "demo": {
+      "status": "recorded_video",
+      "url": "media/localsend-demo.mp4",
+      "note": "官方 LocalSend 1.18.2 实际接收录屏：确认发送方 → 接受 → 传输进度 → 完成；187,200 字节，接收文件 SHA-256 与发送端一致。同一台电脑上的协议测试端发送，不是两台实体设备，未录官方发送端 UI / Actual official-app receiving workflow. An isolated protocol client sends on the same computer; no second physical device or official sending UI is claimed. Received bytes verified equal.",
+      "speed": 2,
+      "originalUrl": "media/normal-speed/localsend-demo.mp4",
+      "durationSeconds": 12.5
+    },
+    "review": "approved",
+    "source": "https://github.com/localsend/localsend#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "audience": "general",
+    "setupLevel": "桌面安装",
+    "quality": {
+      "stars": 95358,
+      "forks": 5364,
+      "archived": false,
+      "license": "Apache-2.0",
+      "lastPush": "2026-10-21T10:17:17Z",
+      "checkedAt": "2026-10-24T03:30:20.845Z"
+    },
+    "selection": {
+      "cohort": "retained",
+      "reason": "保留上一轮已通过或明确要求补录的项目。"
+    },
+    "verification": "core_workflow_recorded"
+  },
+  {
+    "id": "losslesscut",
+    "name": "LosslessCut",
+    "repository": "https://github.com/mifi/lossless-cut",
+    "summary": {
+      "zh": "快速无损裁剪音视频",
+      "en": "Trim audio and video without re-encoding"
+    },
+    "requirements": {
+      "zh": "桌面安装；学习剪切区间与格式限制",
+      "en": "Desktop installation; learn ranges and format limitations"
+    },
+    "demo": {
+      "status": "recorded_video",
+      "url": "media/losslesscut-demo.mp4",
+      "note": "官方 LosslessCut 3.70.1 实际录屏：12 秒合成片 → 标记 2.282–8.000 秒区间 → MP4 导出 → 成功。实际输出约 6.18 秒；关键帧裁剪存在边界偏差。183 个导出视频压缩数据包均与源片连续片段完全一致，已验证视频未重编码 / Actual editing/export workflow. Output ~6.18 s; keyframe cuts shift boundaries. All 183 compressed video packets match an input subsequence; no video re-encoding.",
+      "speed": 2,
+      "originalUrl": "media/normal-speed/losslesscut-demo.mp4",
+      "durationSeconds": 20.5
+    },
+    "review": "approved",
+    "source": "https://github.com/mifi/lossless-cut#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "audience": "general",
+    "setupLevel": "桌面安装",
+    "quality": {
+      "stars": 45112,
+      "forks": 2271,
+      "archived": false,
+      "license": "GPL-2.0",
+      "lastPush": "2026-10-23T12:40:41Z",
+      "checkedAt": "2026-10-24T03:30:20.817Z"
+    },
+    "selection": {
+      "cohort": "retained",
+      "reason": "保留上一轮已通过或明确要求补录的项目。"
+    },
+    "verification": "core_workflow_recorded"
+  },
+  {
+    "id": "gatherpack",
+    "name": "GatherPack",
+    "repository": "https://github.com/dogchenya/GatherPack",
+    "summary": {
+      "zh": "跨目录收集文件，一次打包带走",
+      "en": "Collect scattered files and archive them together"
+    },
+    "requirements": {
+      "zh": "桌面安装；Alpha 阶段，查看平台验证限制",
+      "en": "Desktop installation; Alpha, with platform validation limits"
+    },
+    "demo": {
+      "status": "recorded_video",
+      "url": "media/gatherpack-demo.mp4",
+      "note": "两个目录添加文件 → 检查目录 → ZIP 打包 → 写入 2、失败 0；真实录屏经剪辑，ZIP 完整性校验通过 / Edited actual recording; two files collected and ZIP integrity verified.",
+      "speed": 2,
+      "originalUrl": "media/normal-speed/gatherpack-demo.mp4",
+      "durationSeconds": 25.5
+    },
+    "review": "approved",
+    "source": "https://github.com/dogchenya/GatherPack#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "audience": "general",
+    "setupLevel": "桌面安装",
+    "quality": {
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "license": "MIT",
+      "lastPush": "2026-10-24T02:29:52Z",
+      "checkedAt": "2026-10-24T03:30:21.678Z"
+    },
+    "selection": {
+      "cohort": "own-project",
+      "reason": "用户指定的自有项目，独立标识，不视为高星项目。"
+    },
+    "verification": "core_workflow_recorded"
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "repository": "https://github.com/excalidraw/excalidraw",
+    "summary": {
+      "zh": "手绘风格白板，快速解释流程与想法",
+      "en": "Sketch diagrams and explain ideas on a hand-drawn whiteboard"
+    },
+    "requirements": {
+      "zh": "网页打开即可；团队增值服务另计",
+      "en": "Open the web app; paid collaboration offerings are separate"
+    },
+    "demo": {
+      "status": "recorded_partial_video",
+      "url": "media/excalidraw-demo.mp4",
+      "note": "官方 npm 开源组件 0.18.1 本地演示：双语流程节点、连接箭头及完整图导出预览；实际屏幕采集经剪辑。PNG 保存未验证成功，不能计为导出实测完成 / Official component hosted locally; actual drawing and export-preview footage. PNG file saving remains unverified.",
+      "speed": 2,
+      "originalUrl": "media/normal-speed/excalidraw-demo.mp4",
+      "durationSeconds": 14.233333
+    },
+    "review": "approved",
+    "source": "https://github.com/excalidraw/excalidraw#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "selection": {
+      "cohort": "high-star-v2",
+      "reason": "把文字想法变成可分享的图解，普通用户也能直接开始。",
+      "plannedWorkflow": "Sketch a two-step process and export the diagram."
+    },
+    "verification": "drawing_recorded_export_unverified",
+    "audience": "general",
+    "setupLevel": "网页即用",
+    "quality": {
+      "stars": 134441,
+      "forks": 15805,
+      "archived": false,
+      "license": "MIT",
+      "lastPush": "2026-10-23T15:10:12Z",
+      "checkedAt": "2026-10-24T03:30:19.471Z"
+    }
+  },
+  {
+    "id": "syncthing",
+    "name": "Syncthing",
+    "repository": "https://github.com/syncthing/syncthing",
+    "summary": {
+      "zh": "让多台设备上的文件夹自动保持同步",
+      "en": "Keep folders synchronized across your devices"
+    },
+    "requirements": {
+      "zh": "两端安装并配对，需要配置同步目录",
+      "en": "Install and pair devices, then choose synchronized folders"
+    },
+    "demo": {
+      "status": "recorded_video",
+      "url": "media/syncthing-demo.mp4",
+      "note": "本机双实例隔离演示：示例文件写入 → 重新扫描 → 接收端出现文件与最近更改；两端内容一致。实际连续屏幕采集，约 5 帧/秒 / Two isolated local nodes; actual timed screen capture; received contents verified equal.",
+      "speed": 2,
+      "originalUrl": "media/normal-speed/syncthing-demo.mp4",
+      "durationSeconds": 15.116667
+    },
+    "review": "approved",
+    "source": "https://github.com/syncthing/syncthing#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "selection": {
+      "cohort": "high-star-v2",
+      "reason": "文件同步目标明确，可验证文件是否真正到达另一端。",
+      "plannedWorkflow": "Pair isolated local demo nodes, share a sample folder and verify synchronization."
+    },
+    "verification": "core_workflow_recorded",
+    "audience": "general",
+    "setupLevel": "安装并配对设备",
+    "quality": {
+      "stars": 89671,
+      "forks": 5534,
+      "archived": false,
+      "license": "MPL-2.0",
+      "lastPush": "2026-10-24T01:17:48Z",
+      "checkedAt": "2026-10-24T03:30:19.491Z"
+    }
+  },
+  {
+    "id": "obs-studio",
+    "name": "OBS Studio",
+    "repository": "https://github.com/obsproject/obs-studio",
+    "summary": {
+      "zh": "录制教程、直播与多画面内容",
+      "en": "Record tutorials, stream and compose multiple sources"
+    },
+    "requirements": {
+      "zh": "桌面安装；首次需配置画面与音频来源",
+      "en": "Desktop installation; configure video and audio sources"
+    },
+    "demo": {
+      "status": "recorded_video",
+      "url": "media/obs-studio-demo.mp4",
+      "speed": 3,
+      "note": "官方 OBS 33.0.0 便携版实际操作：添加媒体源 → 导入合成视频 → 循环播放 → 适配画布 → 开始/停止录制 → 保存。确实生成 1280×720、约 15.33 秒的 H.264 视频；本次展示媒体源录制，未展示直播、摄像头或屏幕采集 / Actual official OBS workflow, verified output. Demonstrates media-source recording; streaming, webcam and display capture are not demonstrated.",
+      "originalUrl": "media/normal-speed/obs-studio-demo.mp4",
+      "durationSeconds": 21.066667
+    },
+    "review": "approved",
+    "source": "https://github.com/obsproject/obs-studio#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "selection": {
+      "cohort": "high-star-v2",
+      "reason": "成熟的录制与直播工具，核心能力是多来源画面与输出控制。",
+      "plannedWorkflow": "Add a capture source, record a short clip and inspect the output."
+    },
+    "verification": "core_workflow_recorded",
+    "audience": "general",
+    "setupLevel": "桌面安装",
+    "quality": {
+      "stars": 77992,
+      "forks": 10817,
+      "archived": false,
+      "license": "GPL-2.0",
+      "lastPush": "2026-10-23T20:48:25Z",
+      "checkedAt": "2026-10-24T03:30:19.891Z"
+    }
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "repository": "https://github.com/n8n-io/n8n",
+    "summary": {
+      "zh": "把重复的跨应用操作串成自动化流程",
+      "en": "Connect apps and automate repetitive workflows"
+    },
+    "requirements": {
+      "zh": "需自部署或云账号；第三方集成可能需要授权、付费",
+      "en": "Self-host or use a cloud account; integrations may require credentials or fees"
+    },
+    "demo": {
+      "status": "recorded_video",
+      "url": "media/n8n-demo.mp4",
+      "speed": 3,
+      "note": "官方 n8n 2.44.6 本地隔离实例：导入三节点模板 → 查看并修改输入参数 → 执行 → 核对真实输出。三个节点均成功；修改后的受众、zh/en 语言标记和 pending_review 状态已在输出表格核对。不使用外部账号、API 或模型；演示数据不修改主站人工审核记录 / Actual local execution with three successful nodes and verified output. No external credentials or models; demo output does not modify the catalog human reviews.",
+      "originalUrl": "media/normal-speed/n8n-demo.mp4",
+      "durationSeconds": 19.966667
+    },
+    "review": "approved",
+    "source": "https://github.com/n8n-io/n8n#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "selection": {
+      "cohort": "high-star-v2",
+      "reason": "可视化工作流能把输入、处理和输出连接起来；属于技术进阶工具。",
+      "plannedWorkflow": "Build and execute a small manual-trigger workflow with sample data."
+    },
+    "verification": "core_workflow_recorded",
+    "audience": "technical",
+    "setupLevel": "技术进阶 / 需服务配置",
+    "quality": {
+      "stars": 208428,
+      "forks": 61217,
+      "archived": false,
+      "license": "NOASSERTION",
+      "lastPush": "2026-10-23T22:41:59Z",
+      "checkedAt": "2026-10-24T03:30:19.891Z"
+    }
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "repository": "https://github.com/open-webui/open-webui",
+    "summary": {
+      "zh": "用统一界面与本地或 API 模型对话",
+      "en": "Chat with local and API models through one interface"
+    },
+    "requirements": {
+      "zh": "需部署，并连接 Ollama 或兼容 API；不自带免费模型算力",
+      "en": "Requires deployment and Ollama or a compatible API; compute is separate"
+    },
+    "demo": {
+      "status": "recorded_video",
+      "url": "media/open-webui-demo.mp4",
+      "speed": 3,
+      "note": "官方 Open WebUI 0.12.3 本地隔离部署（官方 slim 依赖，保留登录认证），连接实际 Ollama / qwen2.5:0.5b：输入问题 → 中文翻译 → 追问 → 明确原文重试 → 英文翻译 → 刷新核对三轮历史。保留小模型未理解上下文追问的真实失误，未声称已验证知识库、语音或工具调用 / Actual official UI and model responses, including a failed implicit follow-up and successful explicit retry; all three turns survive reload. Knowledge, voice and tool calling are not verified.",
+      "originalUrl": "media/normal-speed/open-webui-demo.mp4",
+      "durationSeconds": 19.283333
+    },
+    "review": "approved",
+    "source": "https://github.com/open-webui/open-webui#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "selection": {
+      "cohort": "high-star-v2",
+      "reason": "适合已有模型服务的用户，降低日常使用模型的操作成本。",
+      "plannedWorkflow": "Connect a real model and complete a short sample conversation."
+    },
+    "verification": "core_workflow_recorded",
+    "audience": "technical",
+    "setupLevel": "技术进阶 / 需服务配置",
+    "quality": {
+      "stars": 156595,
+      "forks": 22790,
+      "archived": false,
+      "license": "NOASSERTION",
+      "lastPush": "2026-10-24T02:25:37Z",
+      "checkedAt": "2026-10-24T03:30:20.423Z"
+    }
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "repository": "https://github.com/ollama/ollama",
+    "summary": {
+      "zh": "在自己的电脑上运行和使用开放模型",
+      "en": "Run and use open models on your own computer"
+    },
+    "requirements": {
+      "zh": "安装后下载模型，需足够内存和磁盘；云模型另计",
+      "en": "Install and download models; sufficient RAM and storage required; cloud plans differ"
+    },
+    "demo": {
+      "status": "recorded_video",
+      "url": "media/ollama-demo.mp4",
+      "speed": 2,
+      "note": "官方 Ollama 0.40.10 CPU 服务和 qwen2.5:0.5b：选择已下载模型 → 输入翻译问题 → 实际流式推理 → 核对回答与耗时。画面是明确标注的 API 测试客户端，并非 Ollama 官方桌面界面；输出来自真实本地模型。只验证此问答流程，未覆盖其他模型、工具调用或部署功能 / Real local inference via a labelled API test client, not the official desktop UI. Only this prompt workflow is verified.",
+      "originalUrl": "media/normal-speed/ollama-demo.mp4",
+      "durationSeconds": 10.716667
+    },
+    "review": "approved",
+    "source": "https://github.com/ollama/ollama#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "selection": {
+      "cohort": "high-star-v2",
+      "reason": "本地模型运行入口明确，可用实际回答验证，而非只看安装界面。",
+      "plannedWorkflow": "Download an appropriately sized model and complete a local prompt."
+    },
+    "verification": "core_workflow_recorded",
+    "audience": "technical",
+    "setupLevel": "技术进阶 / 需服务配置",
+    "quality": {
+      "stars": 184505,
+      "forks": 18508,
+      "archived": false,
+      "license": "MIT",
+      "lastPush": "2026-10-23T23:17:57Z",
+      "checkedAt": "2026-10-24T03:30:20.793Z"
+    }
+  },
+  {
+    "id": "stirling-pdf",
+    "name": "Stirling PDF",
+    "repository": "https://github.com/Stirling-Tools/Stirling-PDF",
+    "summary": {
+      "zh": "合并、拆分、转换和处理 PDF",
+      "en": "Merge, split, convert and process PDFs"
+    },
+    "requirements": {
+      "zh": "桌面或自部署；区分社区功能与付费方案",
+      "en": "Desktop or self-hosted; distinguish community features and paid plans"
+    },
+    "demo": {
+      "status": "recorded_video",
+      "url": "media/stirling-pdf-demo.mp4",
+      "speed": 2,
+      "note": "官方 Stirling PDF 3.2.1 本地部署：导入两份单页 PDF → 合并 → 翻页 → 下载。已核对结果为 2 页，正文和顺序正确。Windows 环境补齐官方 JPDFium 1.1.6 平台依赖后实测通过 / Official locally hosted deployment: import, merge, inspect and download. Two pages and content order verified; official Windows native dependency added.",
+      "originalUrl": "media/normal-speed/stirling-pdf-demo.mp4",
+      "durationSeconds": 16.3
+    },
+    "review": "approved",
+    "source": "https://github.com/Stirling-Tools/Stirling-PDF#readme",
+    "sourceReviewedAt": "2026-10-24",
+    "selection": {
+      "cohort": "high-star-v2",
+      "reason": "面向日常文档处理，演示必须展示处理前后的真实文件。",
+      "plannedWorkflow": "Merge two synthetic PDFs and verify the resulting document."
+    },
+    "verification": "core_workflow_recorded",
+    "audience": "general",
+    "setupLevel": "桌面安装或自部署",
+    "quality": {
+      "stars": 94822,
+      "forks": 11272,
+      "archived": false,
+      "license": "NOASSERTION",
+      "lastPush": "2026-10-24T03:24:25Z",
+      "checkedAt": "2026-10-24T03:30:20.840Z"
+    }
+  }
+]
