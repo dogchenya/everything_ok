@@ -14,7 +14,8 @@ for(const t of tools){
 }
 for(const file of ['README.md','README.en.md','index.html','docs/MEDIA.md','media/README.md']){
  const source=await fs.readFile(file,'utf8');
- const links=file.endsWith('.html')?[...source.matchAll(/(?:href|src|poster)="([^"]+)"/g)].map(m=>m[1]):[...source.matchAll(/\]\(([^)]+)\)/g)].map(m=>m[1]);
+ const links=[...source.matchAll(/(?:href|src|poster)="([^"]+)"/g)].map(m=>m[1]);
+ if(!file.endsWith('.html'))links.push(...[...source.matchAll(/\]\(([^)]+)\)/g)].map(m=>m[1]));
  for(const link of links){if(/^(?:https?:|#)/.test(link))continue;await fs.access(path.resolve(path.dirname(file),link.split('#')[0]));}
 }
 const staged=execFileSync('git',['diff','--cached','--name-only'],{encoding:'utf8'}).trim().split('\n').filter(Boolean);

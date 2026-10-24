@@ -4,6 +4,8 @@ const categories=JSON.parse(await fs.readFile('catalog/categories.json','utf8'))
 const byId=new Map(tools.map(t=>[t.id,t]));
 const videoBase='https://dogchenya.github.io/everything_ok/';
 const raw=u=>u.replace(/^https:\/\/github.com\//,'https://raw.githubusercontent.com/').replace('/blob/','/');
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const link=(href,label)=>`<a href="${esc(href)}">${esc(label)}</a>`;
 const scopes={
  localsend:['接受文件 → 接收完成。发送端是本机协议测试客户端，未展示两台实体设备互传。','Accept a file → receive it successfully. Sent by a protocol test client on the same computer; two physical devices are not demonstrated.'],
  gatherpack:['从两个目录收集文件 → 检查目录 → ZIP 打包；写入 2 个文件，失败 0。','Collect files from two folders → inspect the collection → create a ZIP; two files written, no failures.'],
@@ -28,23 +30,25 @@ for(const lang of ['zh','en']){
  for(const c of categories){
   s+=`<a id="${c.id}"></a>\n\n## ${c[lang]}\n\n`;
   if(c.id==='file-sharing')s+=zh?'临时发文件优先看前两个；整理成包用 GatherPack，长期保持文件一致再考虑 Syncthing。\n\n':'For a quick transfer, start with the first two. Use GatherPack to assemble an archive, or Syncthing for ongoing synchronization.\n\n';
+  s+=`<table>\n<thead><tr><th>${zh?'工具':'Tool'}</th><th>${zh?'用途与上手门槛':'Purpose and setup'}</th><th>${zh?'GIF 演示':'GIF demo'}</th></tr></thead>\n<tbody>\n`;
   for(const id of c.tools){
    const t=byId.get(id),d=t.demo,local=d.url.startsWith('media/'),video=/\.(mp4|webm)$/i.test(d.url);
-   s+=`<a id="${id}"></a>\n\n### [${t.name}](${t.repository})${id==='gatherpack'?(zh?' · 自有项目':' · Own project'):''}\n\n**${t.summary[lang]}**\n\n${zh?'上手':'Setup'}：${t.requirements[lang]} · ★ ${t.quality.stars.toLocaleString('en-US')}\n\n`;
+   let demo='';
    if(local&&video){
     const gif=d.url.replace(/\.mp4$/,'.gif');await fs.access(gif);
-    s+=`![${t.name} ${zh?'实际操作演示':'recorded workflow'}](${gif})\n\n[${zh?'MP4 视频':'MP4 video'}](${videoBase+d.url}) · ${d.speed}× · ${d.durationSeconds.toFixed(1)} s · [${zh?'原速版':'Normal speed'}](${videoBase+d.originalUrl})\n\n`;
+    demo=`<a href="${esc(videoBase+d.url)}"><img src="${esc(gif)}" width="420" alt="${esc(t.name)} ${zh?'实际操作演示':'recorded workflow'}"></a><br>${link(videoBase+d.url,zh?'MP4 视频':'MP4 video')} · ${d.speed}× · ${d.durationSeconds.toFixed(1)} s · ${link(videoBase+d.originalUrl,zh?'原速':'Normal speed')}`;
    }else if(!video){
-    s+=`![${t.name} ${zh?'演示':'demo'}](${local?d.url:raw(d.url)})\n\n`;
-    if(!local)s+=`[${zh?'上游 GIF 来源':'Upstream GIF source'}](${d.url})\n\n`;
+    demo=`<img src="${esc(local?d.url:raw(d.url))}" width="420" alt="${esc(t.name)} ${zh?'演示':'demo'}"><br>${local?(zh?'步骤 GIF':'Step GIF'):link(d.url,zh?'上游 GIF':'Upstream GIF')}`;
    }else{
-    s+=`[▶ ${zh?'查看上游演示视频':'Watch upstream demo video'}](${raw(d.url)})\n\n`;
+    demo=link(raw(d.url),zh?'▶ 上游演示视频':'▶ Upstream demo video');
    }
-   if(scopes[id])s+=`${scopes[id][zh?0:1]}\n\n`;
-   else s+=zh?'演示由上游项目提供，保留原始来源。\n\n':'Demo provided by the upstream project; original source retained.\n\n';
+   const scope=scopes[id]?.[zh?0:1]||(zh?'演示由上游项目提供。':'Demo provided by the upstream project.');
+   const badge=d.status==='recorded_partial_video'?(zh?'部分流程 · 导出未验证':'Partial · export unverified'):d.status==='generated_step_gif'?(zh?'步骤 GIF':'Step GIF'):'';
+   s+=`<tr>\n<td width="120" valign="top"><a id="${id}"></a><strong>${link(t.repository,t.name)}</strong><br>★ ${t.quality.stars.toLocaleString('en-US')}${id==='gatherpack'?`<br>${zh?'自有项目':'Own project'}`:''}</td>\n<td width="260" valign="top"><strong>${esc(t.summary[lang])}</strong><br><br>${zh?'上手':'Setup'}：${esc(t.requirements[lang])}${badge?`<br><br><strong>${badge}</strong>`:''}<details><summary>${zh?'演示范围':'Demo scope'}</summary>${esc(scope)}</details></td>\n<td width="420" valign="top">${demo}</td>\n</tr>\n`;
   }
+  s+='</tbody>\n</table>\n\n';
  }
  s+=`## ${zh?'说明与补充项目':'Notes and contributions'}\n\n${zh?'有些项目需要服务器、模型或付费 API，使用前请查看官方许可和费用。星标不代表质量保证；演示仅覆盖所注明的功能。':'Some tools require hosting, models or paid APIs. Check official licensing and pricing. Stars do not guarantee quality, and demos cover only the stated workflows.'}\n\n[${zh?'演示来源与实测范围':'Sources and demo scope'}](docs/MEDIA.md) · [${zh?'推荐一个工具':'Suggest a tool'}](https://github.com/dogchenya/everything_ok/issues/new) · [${zh?'收录规范与维护':'Contributing and maintenance'}](CONTRIBUTING.md)\n`;
  await fs.writeFile(zh?'README.md':'README.en.md',s);
 }
-console.log('Built categorized READMEs with inline animated recordings.');
+console.log('Built categorized README tables with inline animated recordings.');
