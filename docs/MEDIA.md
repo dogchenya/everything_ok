@@ -1,8 +1,8 @@
 # 演示与素材 / Demos and media
 
-本批 23 个项目已通过人工审核。视频展示选定场景，不代表软件全部功能均已覆盖。
+本批 25 个项目已通过人工审核。视频展示选定场景，不代表软件全部功能均已覆盖。
 
-All 23 projects in this release passed human review. Each demo covers a selected scenario, not every software feature.
+All 25 projects in this release passed human review. Each demo covers a selected scenario, not every software feature.
 
 | 项目 / Project | 类型 / Type | 来源 / Source | 范围与限制 / Scope |
 | --- | --- | --- | --- |
@@ -11,6 +11,7 @@ All 23 projects in this release passed human review. Each demo covers a selected
 | Stirling PDF | 实际操作视频 / Recorded workflow | [演示 / Demo](../media/stirling-pdf-demo.mp4) | 官方 Stirling PDF 3.2.1 本地部署：导入两份单页 PDF → 合并 → 翻页 → 下载。已核对结果为 2 页，正文和顺序正确。Windows 环境补齐官方 JPDFium 1.1.6 平台依赖后实测通过 / Official locally hosted deployment: import, merge, inspect and download. Two pages and content order verified; official Windows native dependency added. |
 | Syncthing | 实际操作视频 / Recorded workflow | [演示 / Demo](../media/syncthing-demo.mp4) | 本机双实例隔离演示：示例文件写入 → 重新扫描 → 接收端出现文件与最近更改；两端内容一致。实际连续屏幕采集，约 5 帧/秒 / Two isolated local nodes; actual timed screen capture; received contents verified equal. |
 | OBS Studio | 实际操作视频 / Recorded workflow | [演示 / Demo](../media/obs-studio-demo.mp4) | 官方 OBS 33.0.0 便携版实际操作：添加媒体源 → 导入合成视频 → 循环播放 → 适配画布 → 开始/停止录制 → 保存。确实生成 1280×720、约 15.33 秒的 H.264 视频；本次展示媒体源录制，未展示直播、摄像头或屏幕采集 / Actual official OBS workflow, verified output. Demonstrates media-source recording; streaming, webcam and display capture are not demonstrated. |
+| Umi-OCR | 实际操作视频 / Recorded workflow | [演示 / Demo](../media/umi-ocr-demo.mp4) | 本轮实录：导入虚构办公资料图片 → 开始识别 → 查看文本和生成的 TXT。日期、编号、金额和待办内容核对正确，标题与段落有合并；非手写或复杂表格测试。/ Recorded locally: import a synthetic office image, run OCR, inspect text and saved TXT. Key fields verified; line merging observed. Handwriting and complex tables not tested. |
 | LosslessCut | 实际操作视频 / Recorded workflow | [演示 / Demo](../media/losslesscut-demo.mp4) | 官方 LosslessCut 3.70.1 实际录屏：12 秒合成片 → 标记 2.282–8.000 秒区间 → MP4 导出 → 成功。实际输出约 6.18 秒；关键帧裁剪存在边界偏差。183 个导出视频压缩数据包均与源片连续片段完全一致，已验证视频未重编码 / Actual editing/export workflow. Output ~6.18 s; keyframe cuts shift boundaries. All 183 compressed video packets match an input subsequence; no video re-encoding. |
 | GatherPack | 实际操作视频 / Recorded workflow | [演示 / Demo](../media/gatherpack-demo.mp4) | 两个目录添加文件 → 检查目录 → ZIP 打包 → 写入 2、失败 0；真实录屏经剪辑，ZIP 完整性校验通过 / Edited actual recording; two files collected and ZIP integrity verified. |
 | PowerToys | 上游素材 / Upstream media | [演示 / Demo](https://github.com/microsoft/PowerToys/blob/main/src/settings-ui/Settings.UI/Assets/Settings/Modules/OOBE/FancyZones.mp4) | 上游 FancyZones 功能视频 / Upstream FancyZones video |
@@ -18,6 +19,7 @@ All 23 projects in this release passed human review. Each demo covers a selected
 | Upscayl | 上游素材 / Upstream media | [演示 / Demo](https://github.com/upscayl/upscayl/blob/main/upscayl.mp4) | 上游视频 / Upstream video |
 | 思源笔记 / SiYuan | 上游素材 / Upstream media | [演示 / Demo](../media/siyuan-demo.gif) · [原始来源 / Source](https://raw.githubusercontent.com/siyuan-note/siyuan/master/app/guide/20210808180117-6v0mkxr/assets/formatting_elements-20210607225733-o1keasx.mp4) | 官方内置指南视频展示列表与格式编辑；块引用、同步、AI 未在这段素材中演示，非本轮实测。 / Official guide clip demonstrates list formatting only; block references, sync and AI are not demonstrated or locally tested. |
 | Files | 上游素材 / Upstream media | [演示 / Demo](https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif) · [原始来源 / Source](https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif) | 官方列视图 GIF：逐层浏览文件夹；未展示双栏、压缩包编辑或本轮安装实测。 / Official column-view GIF. Dual panes, archive editing and a local installation are not demonstrated. |
+| PDFMathTranslate | 上游素材 / Upstream media | [演示 / Demo](https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate/main/docs/images/gui.gif) · [原始来源 / Source](https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate/main/docs/images/gui.gif) | 官方旧版 GUI 演示：选择 PDF → 选择服务与语言 → 翻译 → 查看中文结果及双语下载入口。未做本轮翻译实测；当前界面可能不同。2.0 在 PDFMathTranslate-next 仓库单独维护，本轮不重复收录。/ Official older GUI demo: select PDF, provider and language, translate, inspect Chinese output and bilingual download links. Not tested in this round; current UI may differ. The separately maintained 2.0 repository is not listed again. |
 | ScreenToGif | 上游素材 / Upstream media | [演示 / Demo](https://nickemanarin.github.io/ScreenToGif-Website/media/Editor.gif) | 上游编辑器 GIF / Upstream editor GIF |
 | Flow Launcher | 上游素材 / Upstream media | [演示 / Demo](https://user-images.githubusercontent.com/6903107/207167068-2196d2a3-2caa-4856-958b-a780fbda95c6.gif) | 上游 README 中的 GIF / GIF linked in upstream README |
 | PairDrop | 上游素材 / Upstream media | [演示 / Demo](https://github.com/schlagmichdoch/PairDrop/blob/master/docs/pairdrop_screenshot_mobile.gif) | 上游 GIF / Upstream GIF |

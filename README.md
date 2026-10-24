@@ -50,7 +50,7 @@
 <tbody>
 <tr>
 <td width="120" valign="top"><a id="stirling-pdf"></a><strong><a href="https://github.com/Stirling-Tools/Stirling-PDF">Stirling PDF</a></strong><br>★ 94,822</td>
-<td width="260" valign="top"><strong>合并、拆分、转换和处理 PDF</strong><br><br>上手：桌面或自部署；区分社区功能与付费方案<details><summary>演示范围</summary>导入两份 PDF → 合并 → 翻页检查 → 下载，结果页数与顺序已核对。</details></td>
+<td width="260" valign="top"><strong>合并、拆分、转换和处理 PDF</strong><br><br>上手：桌面或自部署；区分社区功能与付费方案；部分 Office 转换需要云端或服务端支持，需逐项核对<details><summary>演示范围</summary>导入两份 PDF → 合并 → 翻页检查 → 下载，结果页数与顺序已核对。</details></td>
 <td width="420" valign="top"><a href="https://dogchenya.github.io/everything_ok/media/stirling-pdf-demo.mp4"><img src="media/stirling-pdf-demo.gif" width="420" alt="Stirling PDF 实际操作演示"></a><br><a href="https://dogchenya.github.io/everything_ok/media/stirling-pdf-demo.mp4">MP4 视频</a> · 2× · 16.3 s</td>
 </tr>
 <tr>
@@ -77,6 +77,16 @@
 <td width="120" valign="top"><a id="siyuan"></a><strong><a href="https://github.com/siyuan-note/siyuan">思源笔记 / SiYuan</a></strong><br>★ 46,905</td>
 <td width="260" valign="top"><strong>本地优先的 Markdown 笔记，支持块引用</strong><br><br>上手：桌面安装；同步及部分服务付费<details><summary>演示范围</summary>官方内置指南视频展示列表与格式编辑；块引用、同步、AI 未在这段素材中演示，非本轮实测。</details></td>
 <td width="420" valign="top"><a href="https://raw.githubusercontent.com/siyuan-note/siyuan/master/app/guide/20210808180117-6v0mkxr/assets/formatting_elements-20210607225733-o1keasx.mp4"><img src="media/siyuan-demo.gif" width="420" alt="思源笔记 / SiYuan 上游视频预览"></a><br><a href="https://raw.githubusercontent.com/siyuan-note/siyuan/master/app/guide/20210808180117-6v0mkxr/assets/formatting_elements-20210607225733-o1keasx.mp4">上游视频</a> · 9.6 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="umi-ocr"></a><strong><a href="https://github.com/hiroi-sora/Umi-OCR">Umi-OCR</a></strong><br>★ 48,143</td>
+<td width="260" valign="top"><strong>把截图和扫描图片转成可复制文字，支持离线批量识别</strong><br><br>上手：Windows 解压即用；Linux 另有版本。本次仅验证 Windows Rapid v2.1.5 图片识别<details><summary>演示范围</summary>导入图片 → 离线识别 → 查看文字；日期、编号、金额核对正确，部分段落合并。仅测试印刷体图片。</details></td>
+<td width="420" valign="top"><a href="https://dogchenya.github.io/everything_ok/media/umi-ocr-demo.mp4"><img src="media/umi-ocr-demo.gif" width="420" alt="Umi-OCR 实际操作演示"></a><br><a href="https://dogchenya.github.io/everything_ok/media/umi-ocr-demo.mp4">MP4 视频</a> · 2× · 12.7 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="pdfmathtranslate"></a><strong><a href="https://github.com/PDFMathTranslate/PDFMathTranslate">PDFMathTranslate</a></strong><br>★ 37,812</td>
+<td width="260" valign="top"><strong>翻译外文 PDF，尽量保留公式、图表和原有版式</strong><br><br>上手：可用官方推荐的在线服务；本地版需安装，部分翻译服务需密钥或收费。文件处理位置取决于部署和翻译服务<details><summary>演示范围</summary>官方旧版 GUI：导入 PDF → 翻译 → 查看中文结果和双语下载入口。未做本轮翻译实测，当前界面可能不同。</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate/main/docs/images/gui.gif" width="420" alt="PDFMathTranslate 演示"><br><a href="https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate/main/docs/images/gui.gif">上游 GIF</a></td>
 </tr>
 </tbody>
 </table>

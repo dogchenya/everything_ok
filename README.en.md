@@ -50,7 +50,7 @@ Useful GitHub tools, grouped by purpose, with descriptions, setup requirements a
 <tbody>
 <tr>
 <td width="120" valign="top"><a id="stirling-pdf"></a><strong><a href="https://github.com/Stirling-Tools/Stirling-PDF">Stirling PDF</a></strong><br>★ 94,822</td>
-<td width="260" valign="top"><strong>Merge, split, convert and process PDFs</strong><br><br>Setup：Desktop or self-hosted; distinguish community features and paid plans<details><summary>Demo scope</summary>Import two PDFs → merge → inspect pages → download; page count and order verified.</details></td>
+<td width="260" valign="top"><strong>Merge, split, convert and process PDFs</strong><br><br>Setup：Desktop or self-hosted; distinguish community features and paid plans. Some Office conversions require cloud or server support; check each format.<details><summary>Demo scope</summary>Import two PDFs → merge → inspect pages → download; page count and order verified.</details></td>
 <td width="420" valign="top"><a href="https://dogchenya.github.io/everything_ok/media/stirling-pdf-demo.mp4"><img src="media/stirling-pdf-demo.gif" width="420" alt="Stirling PDF recorded workflow"></a><br><a href="https://dogchenya.github.io/everything_ok/media/stirling-pdf-demo.mp4">MP4 video</a> · 2× · 16.3 s</td>
 </tr>
 <tr>
@@ -77,6 +77,16 @@ Useful GitHub tools, grouped by purpose, with descriptions, setup requirements a
 <td width="120" valign="top"><a id="siyuan"></a><strong><a href="https://github.com/siyuan-note/siyuan">思源笔记 / SiYuan</a></strong><br>★ 46,905</td>
 <td width="260" valign="top"><strong>Local-first Markdown notes with block references</strong><br><br>Setup：Desktop installation; synchronization and some services are paid<details><summary>Demo scope</summary>Official guide clip demonstrates list formatting only; block references, sync and AI are not demonstrated or locally tested.</details></td>
 <td width="420" valign="top"><a href="https://raw.githubusercontent.com/siyuan-note/siyuan/master/app/guide/20210808180117-6v0mkxr/assets/formatting_elements-20210607225733-o1keasx.mp4"><img src="media/siyuan-demo.gif" width="420" alt="思源笔记 / SiYuan upstream video preview"></a><br><a href="https://raw.githubusercontent.com/siyuan-note/siyuan/master/app/guide/20210808180117-6v0mkxr/assets/formatting_elements-20210607225733-o1keasx.mp4">Upstream video</a> · 9.6 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="umi-ocr"></a><strong><a href="https://github.com/hiroi-sora/Umi-OCR">Umi-OCR</a></strong><br>★ 48,143</td>
+<td width="260" valign="top"><strong>Extract copyable text from screenshots and scanned images, offline and in batches</strong><br><br>Setup：Portable Windows app; Linux version available. Tested image OCR on Windows Rapid v2.1.5 only<details><summary>Demo scope</summary>Import an image → run offline OCR → inspect text. Date, ID and amount verified; some lines merged. Printed image text only.</details></td>
+<td width="420" valign="top"><a href="https://dogchenya.github.io/everything_ok/media/umi-ocr-demo.mp4"><img src="media/umi-ocr-demo.gif" width="420" alt="Umi-OCR recorded workflow"></a><br><a href="https://dogchenya.github.io/everything_ok/media/umi-ocr-demo.mp4">MP4 video</a> · 2× · 12.7 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="pdfmathtranslate"></a><strong><a href="https://github.com/PDFMathTranslate/PDFMathTranslate">PDFMathTranslate</a></strong><br>★ 37,812</td>
+<td width="260" valign="top"><strong>Translate PDFs while preserving formulas, figures and layout where possible</strong><br><br>Setup：Hosted services are linked by the project; local installation available. Some translation providers require API keys or payment; data handling depends on deployment and provider<details><summary>Demo scope</summary>Official older GUI: import PDF → translate → inspect Chinese output and bilingual download links. Not tested this round; current UI may differ.</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate/main/docs/images/gui.gif" width="420" alt="PDFMathTranslate demo"><br><a href="https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate/main/docs/images/gui.gif">Upstream GIF</a></td>
 </tr>
 </tbody>
 </table>
