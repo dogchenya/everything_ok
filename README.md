@@ -33,6 +33,11 @@
 <td width="260" valign="top"><strong>让多台设备上的文件夹自动保持同步</strong><br><br>上手：两端安装并配对，需要配置同步目录<details><summary>演示范围</summary>本机两个隔离实例：写入文件 → 同步 → 接收端核对内容。</details></td>
 <td width="420" valign="top"><a href="https://dogchenya.github.io/everything_ok/media/syncthing-demo.mp4"><img src="media/syncthing-demo.gif" width="420" alt="Syncthing 实际操作演示"></a><br><a href="https://dogchenya.github.io/everything_ok/media/syncthing-demo.mp4">MP4 视频</a> · 2× · 15.1 s</td>
 </tr>
+<tr>
+<td width="120" valign="top"><a id="files"></a><strong><a href="https://github.com/files-community/Files">Files</a></strong><br>★ 46,178</td>
+<td width="260" valign="top"><strong>Windows 文件管理器：多标签、双栏和列视图</strong><br><br>上手：Windows 安装；商店版付费，另有官网安装包<details><summary>演示范围</summary>官方列视图 GIF：逐层浏览文件夹；未展示双栏、压缩包编辑或本轮安装实测。</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif" width="420" alt="Files 演示"><br><a href="https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif">上游 GIF</a></td>
+</tr>
 </tbody>
 </table>
 
@@ -62,6 +67,16 @@
 <td width="120" valign="top"><a id="flow-launcher"></a><strong><a href="https://github.com/Flow-Launcher/Flow.Launcher">Flow Launcher</a></strong><br>★ 15,855</td>
 <td width="260" valign="top"><strong>搜索文件、快速启动应用</strong><br><br>上手：Windows 桌面安装<details><summary>演示范围</summary>演示由上游项目提供。</details></td>
 <td width="420" valign="top"><img src="https://user-images.githubusercontent.com/6903107/207167068-2196d2a3-2caa-4856-958b-a780fbda95c6.gif" width="420" alt="Flow Launcher 演示"><br><a href="https://user-images.githubusercontent.com/6903107/207167068-2196d2a3-2caa-4856-958b-a780fbda95c6.gif">上游 GIF</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="joplin"></a><strong><a href="https://github.com/laurent22/joplin">Joplin</a></strong><br>★ 56,852</td>
+<td width="260" valign="top"><strong>离线记笔记、待办和整理资料</strong><br><br>上手：桌面或手机安装；云同步方案另选，Joplin Cloud 收费<details><summary>演示范围</summary>官方短视频仅展示笔记内已有绘图的编辑；笔记创建、导入和同步未做本轮实测。</details></td>
+<td width="420" valign="top"><a href="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/draw/edit-existing-drawing-on-desktop.mp4"><img src="media/joplin-demo.gif" width="420" alt="Joplin 上游视频预览"></a><br><a href="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/draw/edit-existing-drawing-on-desktop.mp4">上游视频</a> · 8.3 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="siyuan"></a><strong><a href="https://github.com/siyuan-note/siyuan">思源笔记 / SiYuan</a></strong><br>★ 46,905</td>
+<td width="260" valign="top"><strong>本地优先的 Markdown 笔记，支持块引用</strong><br><br>上手：桌面安装；同步及部分服务付费<details><summary>演示范围</summary>官方内置指南视频展示列表与格式编辑；块引用、同步、AI 未在这段素材中演示，非本轮实测。</details></td>
+<td width="420" valign="top"><a href="https://raw.githubusercontent.com/siyuan-note/siyuan/master/app/guide/20210808180117-6v0mkxr/assets/formatting_elements-20210607225733-o1keasx.mp4"><img src="media/siyuan-demo.gif" width="420" alt="思源笔记 / SiYuan 上游视频预览"></a><br><a href="https://raw.githubusercontent.com/siyuan-note/siyuan/master/app/guide/20210808180117-6v0mkxr/assets/formatting_elements-20210607225733-o1keasx.mp4">上游视频</a> · 9.6 s</td>
 </tr>
 </tbody>
 </table>
@@ -132,6 +147,21 @@
 <td width="120" valign="top"><a id="n8n"></a><strong><a href="https://github.com/n8n-io/n8n">n8n</a></strong><br>★ 208,428</td>
 <td width="260" valign="top"><strong>把重复的跨应用操作串成自动化流程</strong><br><br>上手：需自部署或云账号；第三方集成可能需要授权、付费<details><summary>演示范围</summary>导入三节点模板 → 修改输入 → 执行成功 → 检查输出；不需要外部账号或 API。</details></td>
 <td width="420" valign="top"><a href="https://dogchenya.github.io/everything_ok/media/n8n-demo.mp4"><img src="media/n8n-demo.gif" width="420" alt="n8n 实际操作演示"></a><br><a href="https://dogchenya.github.io/everything_ok/media/n8n-demo.mp4">MP4 视频</a> · 3× · 20.0 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="fzf"></a><strong><a href="https://github.com/junegunn/fzf">fzf</a></strong><br>★ 83,751</td>
+<td width="260" valign="top"><strong>在终端中模糊搜索文件和命令历史</strong><br><br>上手：命令行安装；需要终端基础<details><summary>演示范围</summary>项目作者维护的功能 GIF，展示终端中的模糊筛选；素材界面可能与当前版本不同，非本轮实测。</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/junegunn/i/master/fzf.gif" width="420" alt="fzf 演示"><br><a href="https://raw.githubusercontent.com/junegunn/i/master/fzf.gif">上游 GIF</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="lazygit"></a><strong><a href="https://github.com/jesseduffield/lazygit">Lazygit</a></strong><br>★ 83,396</td>
+<td width="260" valign="top"><strong>用终端界面查看改动、暂存和提交 Git 代码</strong><br><br>上手：安装 Git 与 Lazygit；需要 Git 基础<details><summary>演示范围</summary>上游 README 的 commit_and_push 视频展示暂存、提交与推送；仅观看官方素材，未操作用户仓库。</details></td>
+<td width="420" valign="top"><a href="https://github.com/user-attachments/assets/031799d1-740d-4cda-90cf-689513fa9860"><img src="media/lazygit-demo.gif" width="420" alt="Lazygit 上游视频预览"></a><br><a href="https://github.com/user-attachments/assets/031799d1-740d-4cda-90cf-689513fa9860">上游视频</a> · 11.4 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="beekeeper-studio"></a><strong><a href="https://github.com/beekeeper-studio/beekeeper-studio">Beekeeper Studio</a></strong><br>★ 23,788</td>
+<td width="260" valign="top"><strong>用图形界面连接数据库、运行 SQL 和查看数据</strong><br><br>上手：桌面安装；需数据库连接信息，部分功能与数据库支持付费<details><summary>演示范围</summary>官方仓库提供的数据库客户端 GIF，包含连接与查询界面；不保证素材中的所有功能均属于免费版，未做本轮实测。</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/beekeeper-studio/beekeeper-studio/master/apps/studio/screenshots/beekeeper-studio-demo.gif" width="420" alt="Beekeeper Studio 演示"><br><a href="https://raw.githubusercontent.com/beekeeper-studio/beekeeper-studio/master/apps/studio/screenshots/beekeeper-studio-demo.gif">上游 GIF</a></td>
 </tr>
 </tbody>
 </table>

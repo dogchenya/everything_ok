@@ -33,6 +33,11 @@ Useful GitHub tools, grouped by purpose, with descriptions, setup requirements a
 <td width="260" valign="top"><strong>Keep folders synchronized across your devices</strong><br><br>Setup：Install and pair devices, then choose synchronized folders<details><summary>Demo scope</summary>Two isolated local instances: write a file → synchronize → verify the received content.</details></td>
 <td width="420" valign="top"><a href="https://dogchenya.github.io/everything_ok/media/syncthing-demo.mp4"><img src="media/syncthing-demo.gif" width="420" alt="Syncthing recorded workflow"></a><br><a href="https://dogchenya.github.io/everything_ok/media/syncthing-demo.mp4">MP4 video</a> · 2× · 15.1 s</td>
 </tr>
+<tr>
+<td width="120" valign="top"><a id="files"></a><strong><a href="https://github.com/files-community/Files">Files</a></strong><br>★ 46,178</td>
+<td width="260" valign="top"><strong>A Windows file manager with tabs, dual panes and column view</strong><br><br>Setup：Install on Windows; paid Store distribution and a website installer<details><summary>Demo scope</summary>Official column-view GIF. Dual panes, archive editing and a local installation are not demonstrated.</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif" width="420" alt="Files demo"><br><a href="https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif">Upstream GIF</a></td>
+</tr>
 </tbody>
 </table>
 
@@ -62,6 +67,16 @@ Useful GitHub tools, grouped by purpose, with descriptions, setup requirements a
 <td width="120" valign="top"><a id="flow-launcher"></a><strong><a href="https://github.com/Flow-Launcher/Flow.Launcher">Flow Launcher</a></strong><br>★ 15,855</td>
 <td width="260" valign="top"><strong>Find files and launch apps quickly</strong><br><br>Setup：Windows desktop installation<details><summary>Demo scope</summary>Demo provided by the upstream project.</details></td>
 <td width="420" valign="top"><img src="https://user-images.githubusercontent.com/6903107/207167068-2196d2a3-2caa-4856-958b-a780fbda95c6.gif" width="420" alt="Flow Launcher demo"><br><a href="https://user-images.githubusercontent.com/6903107/207167068-2196d2a3-2caa-4856-958b-a780fbda95c6.gif">Upstream GIF</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="joplin"></a><strong><a href="https://github.com/laurent22/joplin">Joplin</a></strong><br>★ 56,852</td>
+<td width="260" valign="top"><strong>Take offline notes, manage to-dos and organize information</strong><br><br>Setup：Desktop/mobile installation; choose a sync backend; Joplin Cloud is paid<details><summary>Demo scope</summary>Official clip shows editing an existing drawing inside a note; note creation, importing and synchronization are not tested.</details></td>
+<td width="420" valign="top"><a href="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/draw/edit-existing-drawing-on-desktop.mp4"><img src="media/joplin-demo.gif" width="420" alt="Joplin upstream video preview"></a><br><a href="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/draw/edit-existing-drawing-on-desktop.mp4">Upstream video</a> · 8.3 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="siyuan"></a><strong><a href="https://github.com/siyuan-note/siyuan">思源笔记 / SiYuan</a></strong><br>★ 46,905</td>
+<td width="260" valign="top"><strong>Local-first Markdown notes with block references</strong><br><br>Setup：Desktop installation; synchronization and some services are paid<details><summary>Demo scope</summary>Official guide clip demonstrates list formatting only; block references, sync and AI are not demonstrated or locally tested.</details></td>
+<td width="420" valign="top"><a href="https://raw.githubusercontent.com/siyuan-note/siyuan/master/app/guide/20210808180117-6v0mkxr/assets/formatting_elements-20210607225733-o1keasx.mp4"><img src="media/siyuan-demo.gif" width="420" alt="思源笔记 / SiYuan upstream video preview"></a><br><a href="https://raw.githubusercontent.com/siyuan-note/siyuan/master/app/guide/20210808180117-6v0mkxr/assets/formatting_elements-20210607225733-o1keasx.mp4">Upstream video</a> · 9.6 s</td>
 </tr>
 </tbody>
 </table>
@@ -132,6 +147,21 @@ Useful GitHub tools, grouped by purpose, with descriptions, setup requirements a
 <td width="120" valign="top"><a id="n8n"></a><strong><a href="https://github.com/n8n-io/n8n">n8n</a></strong><br>★ 208,428</td>
 <td width="260" valign="top"><strong>Connect apps and automate repetitive workflows</strong><br><br>Setup：Self-host or use a cloud account; integrations may require credentials or fees<details><summary>Demo scope</summary>Import a three-node template → edit input → execute → inspect output; no external accounts or APIs required.</details></td>
 <td width="420" valign="top"><a href="https://dogchenya.github.io/everything_ok/media/n8n-demo.mp4"><img src="media/n8n-demo.gif" width="420" alt="n8n recorded workflow"></a><br><a href="https://dogchenya.github.io/everything_ok/media/n8n-demo.mp4">MP4 video</a> · 3× · 20.0 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="fzf"></a><strong><a href="https://github.com/junegunn/fzf">fzf</a></strong><br>★ 83,751</td>
+<td width="260" valign="top"><strong>Fuzzy-find files and command history in a terminal</strong><br><br>Setup：Command-line installation and terminal familiarity<details><summary>Demo scope</summary>Author-maintained fuzzy-search GIF; the interface may differ from current versions. Not a local workflow test.</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/junegunn/i/master/fzf.gif" width="420" alt="fzf demo"><br><a href="https://raw.githubusercontent.com/junegunn/i/master/fzf.gif">Upstream GIF</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="lazygit"></a><strong><a href="https://github.com/jesseduffield/lazygit">Lazygit</a></strong><br>★ 83,396</td>
+<td width="260" valign="top"><strong>Review changes, stage files and commit Git code in a terminal UI</strong><br><br>Setup：Install Git and Lazygit; basic Git knowledge required<details><summary>Demo scope</summary>Upstream commit_and_push demo; no local test or operation on the user repository.</details></td>
+<td width="420" valign="top"><a href="https://github.com/user-attachments/assets/031799d1-740d-4cda-90cf-689513fa9860"><img src="media/lazygit-demo.gif" width="420" alt="Lazygit upstream video preview"></a><br><a href="https://github.com/user-attachments/assets/031799d1-740d-4cda-90cf-689513fa9860">Upstream video</a> · 11.4 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="beekeeper-studio"></a><strong><a href="https://github.com/beekeeper-studio/beekeeper-studio">Beekeeper Studio</a></strong><br>★ 23,788</td>
+<td width="260" valign="top"><strong>Connect to databases, run SQL and inspect data in a desktop UI</strong><br><br>Setup：Desktop installation and database connection details; some features and database support are paid<details><summary>Demo scope</summary>Official database-client GIF. Not all shown features are guaranteed to be free; not locally tested.</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/beekeeper-studio/beekeeper-studio/master/apps/studio/screenshots/beekeeper-studio-demo.gif" width="420" alt="Beekeeper Studio demo"><br><a href="https://raw.githubusercontent.com/beekeeper-studio/beekeeper-studio/master/apps/studio/screenshots/beekeeper-studio-demo.gif">Upstream GIF</a></td>
 </tr>
 </tbody>
 </table>

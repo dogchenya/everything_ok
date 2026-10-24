@@ -1,8 +1,8 @@
 # 演示与素材 / Demos and media
 
-本批 17 个项目已通过人工审核。视频展示选定场景，不代表软件全部功能均已覆盖。
+本批 23 个项目已通过人工审核。视频展示选定场景，不代表软件全部功能均已覆盖。
 
-All 17 projects in this release passed human review. Each demo covers a selected scenario, not every software feature.
+All 23 projects in this release passed human review. Each demo covers a selected scenario, not every software feature.
 
 | 项目 / Project | 类型 / Type | 来源 / Source | 范围与限制 / Scope |
 | --- | --- | --- | --- |
@@ -14,7 +14,10 @@ All 17 projects in this release passed human review. Each demo covers a selected
 | LosslessCut | 实际操作视频 / Recorded workflow | [演示 / Demo](../media/losslesscut-demo.mp4) | 官方 LosslessCut 3.70.1 实际录屏：12 秒合成片 → 标记 2.282–8.000 秒区间 → MP4 导出 → 成功。实际输出约 6.18 秒；关键帧裁剪存在边界偏差。183 个导出视频压缩数据包均与源片连续片段完全一致，已验证视频未重编码 / Actual editing/export workflow. Output ~6.18 s; keyframe cuts shift boundaries. All 183 compressed video packets match an input subsequence; no video re-encoding. |
 | GatherPack | 实际操作视频 / Recorded workflow | [演示 / Demo](../media/gatherpack-demo.mp4) | 两个目录添加文件 → 检查目录 → ZIP 打包 → 写入 2、失败 0；真实录屏经剪辑，ZIP 完整性校验通过 / Edited actual recording; two files collected and ZIP integrity verified. |
 | PowerToys | 上游素材 / Upstream media | [演示 / Demo](https://github.com/microsoft/PowerToys/blob/main/src/settings-ui/Settings.UI/Assets/Settings/Modules/OOBE/FancyZones.mp4) | 上游 FancyZones 功能视频 / Upstream FancyZones video |
+| Joplin | 上游素材 / Upstream media | [演示 / Demo](../media/joplin-demo.gif) · [原始来源 / Source](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/draw/edit-existing-drawing-on-desktop.mp4) | 官方短视频仅展示笔记内已有绘图的编辑；笔记创建、导入和同步未做本轮实测。 / Official clip shows editing an existing drawing inside a note; note creation, importing and synchronization are not tested. |
 | Upscayl | 上游素材 / Upstream media | [演示 / Demo](https://github.com/upscayl/upscayl/blob/main/upscayl.mp4) | 上游视频 / Upstream video |
+| 思源笔记 / SiYuan | 上游素材 / Upstream media | [演示 / Demo](../media/siyuan-demo.gif) · [原始来源 / Source](https://raw.githubusercontent.com/siyuan-note/siyuan/master/app/guide/20210808180117-6v0mkxr/assets/formatting_elements-20210607225733-o1keasx.mp4) | 官方内置指南视频展示列表与格式编辑；块引用、同步、AI 未在这段素材中演示，非本轮实测。 / Official guide clip demonstrates list formatting only; block references, sync and AI are not demonstrated or locally tested. |
+| Files | 上游素材 / Upstream media | [演示 / Demo](https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif) · [原始来源 / Source](https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif) | 官方列视图 GIF：逐层浏览文件夹；未展示双栏、压缩包编辑或本轮安装实测。 / Official column-view GIF. Dual panes, archive editing and a local installation are not demonstrated. |
 | ScreenToGif | 上游素材 / Upstream media | [演示 / Demo](https://nickemanarin.github.io/ScreenToGif-Website/media/Editor.gif) | 上游编辑器 GIF / Upstream editor GIF |
 | Flow Launcher | 上游素材 / Upstream media | [演示 / Demo](https://user-images.githubusercontent.com/6903107/207167068-2196d2a3-2caa-4856-958b-a780fbda95c6.gif) | 上游 README 中的 GIF / GIF linked in upstream README |
 | PairDrop | 上游素材 / Upstream media | [演示 / Demo](https://github.com/schlagmichdoch/PairDrop/blob/master/docs/pairdrop_screenshot_mobile.gif) | 上游 GIF / Upstream GIF |
@@ -22,12 +25,15 @@ All 17 projects in this release passed human review. Each demo covers a selected
 | Ollama | 实际操作视频 / Recorded workflow | [演示 / Demo](../media/ollama-demo.mp4) | 官方 Ollama 0.40.10 CPU 服务和 qwen2.5:0.5b：选择已下载模型 → 输入翻译问题 → 实际流式推理 → 核对回答与耗时。画面是明确标注的 API 测试客户端，并非 Ollama 官方桌面界面；输出来自真实本地模型。只验证此问答流程，未覆盖其他模型、工具调用或部署功能 / Real local inference via a labelled API test client, not the official desktop UI. Only this prompt workflow is verified. |
 | Open WebUI | 实际操作视频 / Recorded workflow | [演示 / Demo](../media/open-webui-demo.mp4) | 官方 Open WebUI 0.12.3 本地隔离部署（官方 slim 依赖，保留登录认证），连接实际 Ollama / qwen2.5:0.5b：输入问题 → 中文翻译 → 追问 → 明确原文重试 → 英文翻译 → 刷新核对三轮历史。保留小模型未理解上下文追问的真实失误，未声称已验证知识库、语音或工具调用 / Actual official UI and model responses, including a failed implicit follow-up and successful explicit retry; all three turns survive reload. Knowledge, voice and tool calling are not verified. |
 | Immich | 步骤 GIF / Step GIF | [演示 / Demo](../media/immich-demo.gif) | 官方公开演示账号；照片时间线→相册。实例禁用上传，未演示上传 / Official public demo account; timeline to albums. Uploads are disabled and not demonstrated |
+| fzf | 上游素材 / Upstream media | [演示 / Demo](https://raw.githubusercontent.com/junegunn/i/master/fzf.gif) · [原始来源 / Source](https://raw.githubusercontent.com/junegunn/i/master/fzf.gif) | 项目作者维护的功能 GIF，展示终端中的模糊筛选；素材界面可能与当前版本不同，非本轮实测。 / Author-maintained fuzzy-search GIF; the interface may differ from current versions. Not a local workflow test. |
+| Lazygit | 上游素材 / Upstream media | [演示 / Demo](../media/lazygit-demo.gif) · [原始来源 / Source](https://github.com/user-attachments/assets/031799d1-740d-4cda-90cf-689513fa9860) | 上游 README 的 commit_and_push 视频展示暂存、提交与推送；仅观看官方素材，未操作用户仓库。 / Upstream commit_and_push demo; no local test or operation on the user repository. |
 | Hoppscotch | 步骤 GIF / Step GIF | [演示 / Demo](../media/hoppscotch-demo.gif) | 官方在线实例；公开 echo 接口 GET→200 OK / Official hosted app; public echo GET request to 200 OK |
+| Beekeeper Studio | 上游素材 / Upstream media | [演示 / Demo](https://raw.githubusercontent.com/beekeeper-studio/beekeeper-studio/master/apps/studio/screenshots/beekeeper-studio-demo.gif) · [原始来源 / Source](https://raw.githubusercontent.com/beekeeper-studio/beekeeper-studio/master/apps/studio/screenshots/beekeeper-studio-demo.gif) | 官方仓库提供的数据库客户端 GIF，包含连接与查询界面；不保证素材中的所有功能均属于免费版，未做本轮实测。 / Official database-client GIF. Not all shown features are guaranteed to be free; not locally tested. |
 
 自行录制视频默认 2–3 倍速，结尾停留 2 秒，保留已录流程的关键操作与结果。
 
 Local recordings play at 2–3× with a two-second result hold, retaining the recorded workflow stages and results.
 
-上游素材仅链接或嵌入，不复制为自有素材；其版权、商标与许可证归原权利人。本站不提供第三方工具安装包。项目代码许可证不自动适用于全部视频和图片。
+上游素材保留原始来源。Joplin、思源笔记与 Lazygit 的 GIF 由上游演示视频转换，未作为自行录制素材；[许可声明](UPSTREAM-LICENSES.md)。其余第三方版权、商标与许可证归原权利人。本站不提供工具安装包。
 
-Upstream media remain linked or embedded from their sources. Third-party copyrights, trademarks and license terms remain with their owners. No third-party tool installers are distributed. A code license does not automatically cover all media.
+Upstream sources remain linked. GIF previews for Joplin, SiYuan and Lazygit are converted from upstream clips, not locally recorded; see [license notices](UPSTREAM-LICENSES.md). Third-party rights remain with their owners. No tool installers are distributed.
