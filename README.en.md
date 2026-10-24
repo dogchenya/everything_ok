@@ -1,6 +1,6 @@
 # everything_ok
 
-[简体中文](README.md) · [GitHub](https://github.com/dogchenya/everything_ok)
+[简体中文](README.md) · [GitHub](https://github.com/dogchenya/everything_ok) · [Live gallery](https://dogchenya.github.io/everything_ok/)
 
 Useful GitHub tools you can understand before installing. **17 reviewed projects** with Chinese/English introductions, setup requirements and demos.
 

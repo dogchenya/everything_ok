@@ -1,6 +1,6 @@
 # everything_ok
 
-[English](README.en.md) · [GitHub](https://github.com/dogchenya/everything_ok)
+[English](README.en.md) · [GitHub](https://github.com/dogchenya/everything_ok) · [在线演示](https://dogchenya.github.io/everything_ok/)
 
 搜集好用的 GitHub 工具，让普通用户和开发者先看懂、再上手。首批 **17 个已审核项目**，包含中英文简介、使用门槛和演示。
 
