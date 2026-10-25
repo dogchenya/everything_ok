@@ -38,6 +38,16 @@ Useful GitHub tools, grouped by purpose, with descriptions, setup requirements a
 <td width="260" valign="top"><strong>A Windows file manager with tabs, dual panes and column view</strong><br><br>Setup：Install on Windows; paid Store distribution and a website installer<details><summary>Demo scope</summary>Official column-view GIF. Dual panes, archive editing and a local installation are not demonstrated.</details></td>
 <td width="420" valign="top"><img src="https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif" width="420" alt="Files demo"><br><a href="https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif">Upstream GIF</a></td>
 </tr>
+<tr>
+<td width="120" valign="top"><a id="peazip"></a><strong><a href="https://github.com/peazip/PeaZip">PeaZip</a></strong><br>★ 8,015</td>
+<td width="260" valign="top"><strong>Create, extract and inspect archives in common formats</strong><br><br>Setup：Windows, macOS and Linux; free portable builds available; some formats are extraction-only<details><summary>Demo scope</summary>Recorded: three synthetic text files packed into ZIP; entries and CRC verified. Extraction, encryption and RAR workflows are not recorded.</details></td>
+<td width="420" valign="top"><a href="https://dogchenya.github.io/everything_ok/media/peazip-demo.mp4"><img src="media/peazip-demo.gif" width="420" alt="PeaZip recorded workflow"></a><br><a href="https://dogchenya.github.io/everything_ok/media/peazip-demo.mp4">MP4 video</a> · 2× · 12.2 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="czkawka"></a><strong><a href="https://github.com/qarmin/czkawka">Czkawka / Krokiet</a></strong><br>★ 34,514</td>
+<td width="260" valign="top"><strong>Find duplicate files and similar images to help organize storage</strong><br><br>Setup：Windows, macOS and Linux; available interfaces and dependencies vary by build<br><br><strong>Step GIF</strong><details><summary>Demo scope</summary>Tested step GIF shows one group of duplicate synthetic files. No files deleted; not continuous video.</details></td>
+<td width="420" valign="top"><img src="media/czkawka-demo.gif" width="420" alt="Czkawka / Krokiet demo"><br>Step GIF</td>
+</tr>
 </tbody>
 </table>
 
@@ -88,6 +98,41 @@ Useful GitHub tools, grouped by purpose, with descriptions, setup requirements a
 <td width="260" valign="top"><strong>Translate PDFs while preserving formulas, figures and layout where possible</strong><br><br>Setup：Hosted services are linked by the project; local installation available. Some translation providers require API keys or payment; data handling depends on deployment and provider<details><summary>Demo scope</summary>Official older GUI: import PDF → translate → inspect Chinese output and bilingual download links. Not tested this round; current UI may differ.</details></td>
 <td width="420" valign="top"><img src="https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate/main/docs/images/gui.gif" width="420" alt="PDFMathTranslate demo"><br><a href="https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate/main/docs/images/gui.gif">Upstream GIF</a></td>
 </tr>
+<tr>
+<td width="120" valign="top"><a id="super-productivity"></a><strong><a href="https://github.com/super-productivity/super-productivity">Super Productivity</a></strong><br>★ 23,123</td>
+<td width="260" valign="top"><strong>Plan tasks, schedule time blocks and track focused work</strong><br><br>Setup：Web or desktop app; external calendar and issue tracker integrations require setup<details><summary>Demo scope</summary>Official reel: task entry and scheduling. External integrations and synchronization are not tested.</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/super-productivity/super-productivity/master/docs/screens/reel.gif" width="420" alt="Super Productivity demo"><br><a href="https://raw.githubusercontent.com/super-productivity/super-productivity/master/docs/screens/reel.gif">Upstream GIF</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="zotero"></a><strong><a href="https://github.com/zotero/zotero">Zotero</a></strong><br>★ 15,741</td>
+<td width="260" valign="top"><strong>Collect research, annotate PDFs and generate citations and bibliographies</strong><br><br>Setup：Desktop installation; web capture uses Zotero Connector; attachment storage beyond the free quota may require payment<details><summary>Demo scope</summary>Third-party Grad Coach tutorial covers importing, organizing and citing. UI may be older than the current version; YouTube access required.</details></td>
+<td width="420" valign="top"><a href="https://www.youtube.com/watch?v=tnbwKj6-pD8"><img src="https://i.ytimg.com/vi/tnbwKj6-pD8/hqdefault.jpg" width="420" alt="Zotero tutorial thumbnail"></a><br><a href="https://www.youtube.com/watch?v=tnbwKj6-pD8">▶ Third-party tutorial</a> · Grad Coach<br>YouTube access required</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="docuseal"></a><strong><a href="https://github.com/docusealco/docuseal">DocuSeal</a></strong><br>★ 18,787</td>
+<td width="260" valign="top"><strong>Add fillable fields to PDFs and collect completed forms and signatures online</strong><br><br>Setup：Hosted service or self-hosting; community and Pro features and pricing differ<details><summary>Demo scope</summary>Official video: PDF templates, fields, recipients and signing. Not tested locally in this round.</details></td>
+<td width="420" valign="top"><a href="https://www.docuseal.com/demo.mp4"><img src="https://github.com/docusealco/docuseal/assets/5418788/d8703ea3-361a-423f-8bfe-eff1bd9dbe14" width="420" alt="DocuSeal official demo thumbnail"></a><br><a href="https://www.docuseal.com/demo.mp4">▶ Official video</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="openrefine"></a><strong><a href="https://github.com/OpenRefine/OpenRefine">OpenRefine</a></strong><br>★ 12,069</td>
+<td width="260" valign="top"><strong>Clean whitespace, formats and inconsistent values in tabular data</strong><br><br>Setup：Runs locally through a browser; some learning required; follow the release package Java requirements<details><summary>Demo scope</summary>Classic Google Refine 2.0 tutorial linked by the official resources page. Very old UI; current version not tested locally.</details></td>
+<td width="420" valign="top"><a href="https://www.youtube.com/watch?v=B70J_H_zAWM"><img src="https://i.ytimg.com/vi/B70J_H_zAWM/hqdefault.jpg" width="420" alt="OpenRefine tutorial thumbnail"></a><br><a href="https://www.youtube.com/watch?v=B70J_H_zAWM">▶ Classic tutorial</a> · GoogleRefine<br>YouTube access required</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="paperless-ngx"></a><strong><a href="https://github.com/paperless-ngx/paperless-ngx">Paperless-ngx</a></strong><br>★ 47,071</td>
+<td width="260" valign="top"><strong>Organize receipts and scanned documents into a searchable archive</strong><br><br>Setup：Requires a server or NAS, commonly Docker Compose; deployment and backups require technical setup<details><summary>Demo scope</summary>Third-party Techno Tim setup tutorial; AI is optional. Not deployed locally this round; YouTube access required.</details></td>
+<td width="420" valign="top"><a href="https://www.youtube.com/watch?v=NMAwHjleqHg"><img src="https://i.ytimg.com/vi/NMAwHjleqHg/hqdefault.jpg" width="420" alt="Paperless-ngx tutorial thumbnail"></a><br><a href="https://www.youtube.com/watch?v=NMAwHjleqHg">▶ Third-party tutorial</a> · Techno Tim<br>YouTube access required</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="copytranslator"></a><strong><a href="https://github.com/CopyTranslator/CopyTranslator">CopyTranslator</a></strong><br>★ 18,122</td>
+<td width="260" valign="top"><strong>Translate copied text without repeatedly pasting it into a translation website</strong><br><br>Setup：Desktop app; online providers need networking and may require API keys or payment; local model options need setup<details><summary>Demo scope</summary>Early GIF linked by the project README shows copied text and a translation. Current v12 and providers are not tested.</details></td>
+<td width="420" valign="top"><img src="https://s1.ax1x.com/2018/11/30/FmrNFS.gif" width="420" alt="CopyTranslator demo"><br><a href="https://s1.ax1x.com/2018/11/30/FmrNFS.gif">Upstream GIF</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="nocodb"></a><strong><a href="https://github.com/nocodb/nocodb">NocoDB</a></strong><br>★ 65,351</td>
+<td width="260" valign="top"><strong>Manage team data with grids, boards and forms</strong><br><br>Setup：Hosted plans or self-hosting; Sustainable Use License, not a permissive open-source license; review terms for commercial integration<details><summary>Demo scope</summary>Official README GIF shows grouped grids, galleries and boards. Permissions and importing are not tested.</details></td>
+<td width="420" valign="top"><img src="https://github.com/nocodb/nocodb/assets/86527202/e2fad786-f211-4dcb-9bd3-aaece83a6783" width="420" alt="NocoDB demo"><br><a href="https://github.com/nocodb/nocodb/assets/86527202/e2fad786-f211-4dcb-9bd3-aaece83a6783">Upstream GIF</a></td>
+</tr>
 </tbody>
 </table>
 
@@ -117,6 +162,16 @@ Useful GitHub tools, grouped by purpose, with descriptions, setup requirements a
 <td width="120" valign="top"><a id="upscayl"></a><strong><a href="https://github.com/upscayl/upscayl">Upscayl</a></strong><br>★ 50,922</td>
 <td width="260" valign="top"><strong>Upscale images with AI</strong><br><br>Setup：Desktop installation; requires compatible graphics hardware<details><summary>Demo scope</summary>Demo provided by the upstream project.</details></td>
 <td width="420" valign="top"><a href="https://raw.githubusercontent.com/upscayl/upscayl/main/upscayl.mp4">▶ Upstream demo video</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="squoosh"></a><strong><a href="https://github.com/GoogleChromeLabs/squoosh">Squoosh</a></strong><br>★ 26,057</td>
+<td width="260" valign="top"><strong>Compress images in a browser and compare quality and file size</strong><br><br>Setup：Browser app; images are compressed locally; the site includes analytics<br><br><strong>Step GIF</strong><details><summary>Demo scope</summary>Tested step GIF: official sample compressed from 2.79 MB to 862 kB. Downloading is unverified.</details></td>
+<td width="420" valign="top"><img src="media/squoosh-demo.gif" width="420" alt="Squoosh demo"><br>Step GIF</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="penpot"></a><strong><a href="https://github.com/penpot/penpot">Penpot</a></strong><br>★ 61,626</td>
+<td width="260" valign="top"><strong>Create interface prototypes and vector designs for collaborative handoff</strong><br><br>Setup：Hosted app requires an account; self-hosting available; design-tool learning required<details><summary>Demo scope</summary>Older official documentation GIF shows vector boolean operations. Complete prototypes and collaboration are not tested.</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/penpot/penpot/develop/docs/img/booleans.gif" width="420" alt="Penpot demo"><br><a href="https://raw.githubusercontent.com/penpot/penpot/develop/docs/img/booleans.gif">Upstream GIF</a></td>
 </tr>
 </tbody>
 </table>

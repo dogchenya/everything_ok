@@ -38,6 +38,16 @@
 <td width="260" valign="top"><strong>Windows 文件管理器：多标签、双栏和列视图</strong><br><br>上手：Windows 安装；商店版付费，另有官网安装包<details><summary>演示范围</summary>官方列视图 GIF：逐层浏览文件夹；未展示双栏、压缩包编辑或本轮安装实测。</details></td>
 <td width="420" valign="top"><img src="https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif" width="420" alt="Files 演示"><br><a href="https://raw.githubusercontent.com/files-community/Website/main/static/blog-resources/v4/Columns.gif">上游 GIF</a></td>
 </tr>
+<tr>
+<td width="120" valign="top"><a id="peazip"></a><strong><a href="https://github.com/peazip/PeaZip">PeaZip</a></strong><br>★ 8,015</td>
+<td width="260" valign="top"><strong>压缩、解压和检查常见格式的文件包</strong><br><br>上手：Windows、macOS、Linux；有便携版，免费；部分格式只支持解压<details><summary>演示范围</summary>实录：3 个测试文本文件打成 ZIP，条目与 CRC 已核对；解压、加密、RAR 未录。</details></td>
+<td width="420" valign="top"><a href="https://dogchenya.github.io/everything_ok/media/peazip-demo.mp4"><img src="media/peazip-demo.gif" width="420" alt="PeaZip 实际操作演示"></a><br><a href="https://dogchenya.github.io/everything_ok/media/peazip-demo.mp4">MP4 视频</a> · 2× · 12.2 s</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="czkawka"></a><strong><a href="https://github.com/qarmin/czkawka">Czkawka / Krokiet</a></strong><br>★ 34,514</td>
+<td width="260" valign="top"><strong>查找重复文件和相似图片，辅助清理磁盘</strong><br><br>上手：Windows、macOS、Linux；界面版本与依赖按下载包区分<br><br><strong>步骤 GIF</strong><details><summary>演示范围</summary>实测步骤 GIF：找出一组重复测试文件；未删除文件，非连续录像。</details></td>
+<td width="420" valign="top"><img src="media/czkawka-demo.gif" width="420" alt="Czkawka / Krokiet 演示"><br>步骤 GIF</td>
+</tr>
 </tbody>
 </table>
 
@@ -88,6 +98,41 @@
 <td width="260" valign="top"><strong>翻译外文 PDF，尽量保留公式、图表和原有版式</strong><br><br>上手：可用官方推荐的在线服务；本地版需安装，部分翻译服务需密钥或收费。文件处理位置取决于部署和翻译服务<details><summary>演示范围</summary>官方旧版 GUI：导入 PDF → 翻译 → 查看中文结果和双语下载入口。未做本轮翻译实测，当前界面可能不同。</details></td>
 <td width="420" valign="top"><img src="https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate/main/docs/images/gui.gif" width="420" alt="PDFMathTranslate 演示"><br><a href="https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate/main/docs/images/gui.gif">上游 GIF</a></td>
 </tr>
+<tr>
+<td width="120" valign="top"><a id="super-productivity"></a><strong><a href="https://github.com/super-productivity/super-productivity">Super Productivity</a></strong><br>★ 23,123</td>
+<td width="260" valign="top"><strong>安排待办、时间块和专注计时</strong><br><br>上手：网页或桌面版；外部日历和任务服务集成另需配置<details><summary>演示范围</summary>官方短片：输入任务并安排时间；外部集成、同步未实测。</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/super-productivity/super-productivity/master/docs/screens/reel.gif" width="420" alt="Super Productivity 演示"><br><a href="https://raw.githubusercontent.com/super-productivity/super-productivity/master/docs/screens/reel.gif">上游 GIF</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="zotero"></a><strong><a href="https://github.com/zotero/zotero">Zotero</a></strong><br>★ 15,741</td>
+<td width="260" valign="top"><strong>收集文献、标注 PDF，生成引用和参考文献</strong><br><br>上手：桌面安装；浏览器抓取需 Connector，附件同步超出免费额度可能收费<details><summary>演示范围</summary>Grad Coach 第三方视频：导入、整理与引用；界面可能旧于当前版本，需访问 YouTube。</details></td>
+<td width="420" valign="top"><a href="https://www.youtube.com/watch?v=tnbwKj6-pD8"><img src="https://i.ytimg.com/vi/tnbwKj6-pD8/hqdefault.jpg" width="420" alt="Zotero 视频教程封面"></a><br><a href="https://www.youtube.com/watch?v=tnbwKj6-pD8">▶ 第三方视频教程</a> · Grad Coach<br>需访问 YouTube</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="docuseal"></a><strong><a href="https://github.com/docusealco/docuseal">DocuSeal</a></strong><br>★ 18,787</td>
+<td width="260" valign="top"><strong>给 PDF 添加填写字段，在线收集表单和签名</strong><br><br>上手：托管服务或自部署；社区版与 Pro 功能、费用不同<details><summary>演示范围</summary>官方视频：创建 PDF 模板、添加字段、收件人和签名；非本轮实测。</details></td>
+<td width="420" valign="top"><a href="https://www.docuseal.com/demo.mp4"><img src="https://github.com/docusealco/docuseal/assets/5418788/d8703ea3-361a-423f-8bfe-eff1bd9dbe14" width="420" alt="DocuSeal 官方演示封面"></a><br><a href="https://www.docuseal.com/demo.mp4">▶ 官方视频</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="openrefine"></a><strong><a href="https://github.com/OpenRefine/OpenRefine">OpenRefine</a></strong><br>★ 12,069</td>
+<td width="260" valign="top"><strong>批量清理表格中的空白、格式和不一致写法</strong><br><br>上手：下载后在本地浏览器使用；有学习成本，Java 要求按发行包说明<details><summary>演示范围</summary>官方资源页推荐的 Google Refine 2.0 经典教程；旧版界面，未实测当前版本。</details></td>
+<td width="420" valign="top"><a href="https://www.youtube.com/watch?v=B70J_H_zAWM"><img src="https://i.ytimg.com/vi/B70J_H_zAWM/hqdefault.jpg" width="420" alt="OpenRefine 视频教程封面"></a><br><a href="https://www.youtube.com/watch?v=B70J_H_zAWM">▶ 经典旧版教程</a> · GoogleRefine<br>需访问 YouTube</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="paperless-ngx"></a><strong><a href="https://github.com/paperless-ngx/paperless-ngx">Paperless-ngx</a></strong><br>★ 47,071</td>
+<td width="260" valign="top"><strong>把票据和扫描件整理成可搜索的文档档案</strong><br><br>上手：需服务器或 NAS，通常用 Docker Compose；部署和备份有门槛<details><summary>演示范围</summary>Techno Tim 第三方部署教程，AI 是可选扩展；未做本轮部署，需访问 YouTube。</details></td>
+<td width="420" valign="top"><a href="https://www.youtube.com/watch?v=NMAwHjleqHg"><img src="https://i.ytimg.com/vi/NMAwHjleqHg/hqdefault.jpg" width="420" alt="Paperless-ngx 视频教程封面"></a><br><a href="https://www.youtube.com/watch?v=NMAwHjleqHg">▶ 第三方视频教程</a> · Techno Tim<br>需访问 YouTube</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="copytranslator"></a><strong><a href="https://github.com/CopyTranslator/CopyTranslator">CopyTranslator</a></strong><br>★ 18,122</td>
+<td width="260" valign="top"><strong>复制一段外文后自动翻译，减少手动粘贴</strong><br><br>上手：桌面安装；在线引擎依赖网络，部分服务需密钥或收费；仅本地模型方案可另行配置<details><summary>演示范围</summary>项目 README 的早期 GIF：复制外文并显示译文；当前 v12 与引擎未实测。</details></td>
+<td width="420" valign="top"><img src="https://s1.ax1x.com/2018/11/30/FmrNFS.gif" width="420" alt="CopyTranslator 演示"><br><a href="https://s1.ax1x.com/2018/11/30/FmrNFS.gif">上游 GIF</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="nocodb"></a><strong><a href="https://github.com/nocodb/nocodb">NocoDB</a></strong><br>★ 65,351</td>
+<td width="260" valign="top"><strong>用表格、看板和表单管理团队数据</strong><br><br>上手：托管套餐或自部署；采用 Sustainable Use License，并非通用宽松开源许可，商业集成先看条款<details><summary>演示范围</summary>官方 README GIF：分组表格、画廊与看板；权限、导入未测。</details></td>
+<td width="420" valign="top"><img src="https://github.com/nocodb/nocodb/assets/86527202/e2fad786-f211-4dcb-9bd3-aaece83a6783" width="420" alt="NocoDB 演示"><br><a href="https://github.com/nocodb/nocodb/assets/86527202/e2fad786-f211-4dcb-9bd3-aaece83a6783">上游 GIF</a></td>
+</tr>
 </tbody>
 </table>
 
@@ -117,6 +162,16 @@
 <td width="120" valign="top"><a id="upscayl"></a><strong><a href="https://github.com/upscayl/upscayl">Upscayl</a></strong><br>★ 50,922</td>
 <td width="260" valign="top"><strong>用 AI 放大图片</strong><br><br>上手：桌面安装；需兼容的显卡环境<details><summary>演示范围</summary>演示由上游项目提供。</details></td>
 <td width="420" valign="top"><a href="https://raw.githubusercontent.com/upscayl/upscayl/main/upscayl.mp4">▶ 上游演示视频</a></td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="squoosh"></a><strong><a href="https://github.com/GoogleChromeLabs/squoosh">Squoosh</a></strong><br>★ 26,057</td>
+<td width="260" valign="top"><strong>在浏览器压缩图片，对比画质与文件大小</strong><br><br>上手：打开网页即用；图片压缩在本机进行，网站含统计采集<br><br><strong>步骤 GIF</strong><details><summary>演示范围</summary>实测步骤 GIF：官方示例 2.79 MB → 862 kB；下载未验证。</details></td>
+<td width="420" valign="top"><img src="media/squoosh-demo.gif" width="420" alt="Squoosh 演示"><br>步骤 GIF</td>
+</tr>
+<tr>
+<td width="120" valign="top"><a id="penpot"></a><strong><a href="https://github.com/penpot/penpot">Penpot</a></strong><br>★ 61,626</td>
+<td width="260" valign="top"><strong>绘制界面原型和矢量设计，协作交付设计稿</strong><br><br>上手：在线版需账号，也可自部署；需要学习设计工具操作<details><summary>演示范围</summary>官方文档旧版 GIF：图形布尔运算；完整原型与协作未测。</details></td>
+<td width="420" valign="top"><img src="https://raw.githubusercontent.com/penpot/penpot/develop/docs/img/booleans.gif" width="420" alt="Penpot 演示"><br><a href="https://raw.githubusercontent.com/penpot/penpot/develop/docs/img/booleans.gif">上游 GIF</a></td>
 </tr>
 </tbody>
 </table>
